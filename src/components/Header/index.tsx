@@ -1,8 +1,7 @@
-import { Container } from './styles';
-import Switch from 'react-switch';
-import { ThemeContext } from 'styled-components';
+import { MoonStars, SunDim } from '@phosphor-icons/react';
 import React, { useContext } from 'react';
-import { shade } from 'polished';
+import { ThemeContext } from 'styled-components';
+import { Container, ContainerIcon } from './styles';
 
 interface Props {
     toggleTheme(): void;
@@ -13,19 +12,18 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
 
     return (
         <Container>
-            TESTE
-
-            <Switch 
-                onChange={toggleTheme}
-                checked={title === 'dark'}
-                checkedIcon={false}
-                uncheckedIcon={false}
-                height={10}
-                width={40}
-                handleDiameter={20}
-                offColor={shade(0.1,  colors.primary)}
-                onColor={colors.terciary}
-            />
+            <h1>LUSCABAP</h1>
+            <ul className={"lista"}>
+                <li className={"lista__item"}>SOBRE MIM</li>
+                <li className={"lista__item"}>CONHECIMENTOS</li>
+                <li className={"lista__item"}>PROJETOS</li>
+                <li className={"lista__item"}>CONTATO</li>
+            </ul>
+            <ContainerIcon onClick={toggleTheme}>
+                {
+                    title === "darkTheme" ? <MoonStars size={35} color='black' /> : <SunDim size={35} color='yellow'/>
+                }
+            </ContainerIcon>
         </Container>
     )
 }
