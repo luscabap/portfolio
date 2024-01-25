@@ -4,6 +4,7 @@ import GlobalStyle from '../../styles/global';
 import dark from '../../styles/themes/dark';
 import light from '../../styles/themes/light';
 import usePersistedState from '../../utils/usePesistedState';
+import AboutMe from '../../components/AboutMe';
 
 export default function HomePage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
@@ -15,6 +16,7 @@ export default function HomePage() {
         <ThemeProvider theme={theme}>
             <GlobalStyle />
             <Header toggleTheme={toggleTheme} />
+            <AboutMe />
         </ThemeProvider>
     )
 }
