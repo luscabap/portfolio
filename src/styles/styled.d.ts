@@ -9,8 +9,9 @@ declare module 'styled-components' {
             secondary: string,
             terciary: string,
 
-            constrast: string,
-            background: string
+            contrast: string,
+            background: string,
+            inverse: string
         }
     }
 }

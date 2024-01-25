@@ -19,10 +19,11 @@ export const Container = styled.div`
         &__item{
             cursor: pointer;
             transition: 0.5s;
+            color: ${props => props.theme.colors.inverse};
         }
 
         &__item:hover{
-            color: ${props => props.theme.colors.terciary};
+            color: ${props => props.theme.colors.contrast};
             transition: 0.5s;
         }
     }

@@ -14,6 +14,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         <Container>
             <h1>LUSCABAP</h1>
             <ul className={"lista"}>
+                <li className={"lista__item"}>HOME</li>
                 <li className={"lista__item"}>SOBRE MIM</li>
                 <li className={"lista__item"}>CONHECIMENTOS</li>
                 <li className={"lista__item"}>PROJETOS</li>

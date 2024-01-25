@@ -6,6 +6,7 @@ export default {
         secondary: "#D8EDF2",
         terciary: "#222e30",
         contrast: "#e0af75",
-        background: "#FEFEFE"
+        background: "#FEFEFE",
+        inverse: "#000000"
     },
 }

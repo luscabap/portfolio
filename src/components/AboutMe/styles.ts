@@ -8,24 +8,25 @@ export const Container = styled.div`
 
     .infos{
 
-
-        h1 {
+        h2 {
         font-style: bold;
-        font-size: 3rem
+        font-size: 3rem;
+        text-decoration: underline;
         }
 
         h3 {
             color: ${props => props.theme.colors.terciary};
             font-size: 1.7rem;
-            margin: 0.5rem 0 1.9rem 0;
+            margin: 0.7rem 0 2.5rem 0rem;
         }
 
         p{
             font-size: 1.2rem;
-            line-height: 1.8rem;
+            line-height: 2rem;
             margin-bottom: 2rem;
             text-indent: 1.5em;
             text-align: justify;
+            color: ${props => props.theme.colors.inverse};
         }
     }
     
