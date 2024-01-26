@@ -4,8 +4,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10rem 0;
-
 
     h1 {
         font-size: 3rem;
@@ -13,9 +11,14 @@ export const Container = styled.div`
         align-items: center;
         justify-content: center;
         gap: 1rem;
+        color: ${props => props.theme.colors.inverse};
+
+        .icone_dev{
+            color: ${props => props.theme.colors.inverse};
+        }
 
         strong{
-            color: ${props => props.theme.colors.inverse};
+            color: ${props => props.theme.colors.primary};
             padding: 0.3rem;
             border-radius: 0.4rem;
         }

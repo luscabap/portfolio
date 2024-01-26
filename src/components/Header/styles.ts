@@ -8,7 +8,7 @@ export const Container = styled.div`
     align-items: center;
 
     h1{
-        color: ${props => props.theme.colors.terciary}
+        color: ${props => props.theme.colors.terciary};
     }
 
     .lista{

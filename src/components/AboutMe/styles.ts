@@ -3,7 +3,6 @@ import styled from "styled-components"
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
-    width: 60%;
     margin: 6rem auto;
 
     .infos{
@@ -12,10 +11,11 @@ export const Container = styled.div`
         font-style: bold;
         font-size: 3rem;
         text-decoration: underline;
+        color: ${props => props.theme.colors.inverse}
         }
 
         h3 {
-            color: ${props => props.theme.colors.terciary};
+            color: ${props => props.theme.colors.secondary};
             font-size: 1.7rem;
             margin: 0.7rem 0 2.5rem 0rem;
         }
