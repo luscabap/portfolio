@@ -10,6 +10,7 @@ import Home from '../../components/Home/Home';
 import * as Styles from './styles'
 import MyProjects from '../../components/MyProjects/MyProjects';
 import Footer from '../../components/Footer/Footer';
+import Conctact from '../../components/Contact/Contact';
 
 export default function HomePage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
@@ -26,6 +27,7 @@ export default function HomePage() {
                 <AboutMe />
                 <Knowledge />
                 <MyProjects />
+                <Conctact />
             </Styles.ContainerMain>
             <Footer />
         </ThemeProvider>
