@@ -11,7 +11,8 @@ export const Container = styled.div`
         font-style: bold;
         font-size: 3rem;
         text-decoration: underline;
-        color: ${props => props.theme.colors.inverse}
+        color: ${props => props.theme.colors.inverse};
+        margin: 0 0 1.7rem 0;
         }
 
         h3 {

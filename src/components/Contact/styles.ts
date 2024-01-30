@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const ContainerContact = styled.div`
-
+    margin: 6rem 0 0 0;
 
     h2{
         font-style: bold;
         font-size: 3rem;
         text-decoration: underline;
-        color: ${props => props.theme.colors.inverse}
+        color: ${props => props.theme.colors.inverse};
+        margin: 0 0 1.7rem 0;
     }
 `
 
@@ -15,7 +16,7 @@ export const ContainerContactIcons = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    justify-content: space-evenly;
     margin: 5rem 0 0 0;
 
     .containerContact_Icon{
@@ -25,11 +26,13 @@ export const ContainerContactIcons = styled.div`
         justify-content: space-evenly;
         transition: 1s;
         text-decoration: none;
+        gap: 0.7rem;
         cursor: pointer;
 
         h4 {
-            color: ${props => props.theme.colors.terciary};
+            color: ${props => props.theme.colors.secondary};
             font-weight: bolder;
+            font-size: 1.25rem;
         }
 
         p{
@@ -40,6 +43,6 @@ export const ContainerContactIcons = styled.div`
     .containerContact_Icon:hover{
         transform: scale(1.1);
         transition: 0.5s;
-        text-decoration: underline;
+        text-decoration: none
     }
 `

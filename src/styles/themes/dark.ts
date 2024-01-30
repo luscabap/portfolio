@@ -2,9 +2,9 @@ export default {
     title: "darkTheme",
 
     colors: {
-        primary: "#1d303b",
-        secondary: "#4C5459",
-        terciary: "#C5D1D9",
+        primary: "#82D1FF",
+        secondary: "#96BDD4",
+        terciary: "#1D303B",
         contrast: "#473622",
         background: "#1f2326",
         inverse: "#FFFFFF"

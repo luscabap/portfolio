@@ -7,8 +7,9 @@ export const ContainerFooter = styled.footer`
     padding: 2rem;
 
     h4{
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 300;
+        color: ${props => props.theme.colors.inverse};
 
         abbr{
             text-decoration: none;

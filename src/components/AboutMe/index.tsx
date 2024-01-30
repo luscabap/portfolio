@@ -7,8 +7,8 @@ export default function AboutMe() {
             <div className='infos'>
                 <h2>Sobre mim</h2>
                 <h3>Lucas Baptista da Silva</h3>
-                <p>Tenho 19 anos de idade, estou cursando o último semestre de Análise e Desenvolvimento de Sistema na faculdade UNIBR e sempre fui apaixonado pela área da tecnologia.</p>
-                <p>Acredito que esse mundo tecnológico está em constante evolução, portanto aproveito para dedicar 110% do meu tempo e vontade, pois o que tenho como objetivo da vida é fazer o que eu amo, programar!</p>
+                <p>Tenho 19 anos de idade e estou trabalhando como estagiário de Analista de Suporte na empresa Softcase. Atualmente estou cursando o 5° e último semestre de Análise e Desenvolvimento de Sistema na faculdade UNIBR no período noturno e no meu tempo livre estudo as tecnologias voltadas à área de front-end.</p>
+                <p>Acredito que o cenário tecnológico mundial está em permanente evolução. Por esse motivo, empenho 110% do meu tempo e energia, uma vez que meu objetivo de vida é seguir minha paixão: a PROGRAMAÇÃO!</p>
             </div>
             <div className='photo'>
                 <img src={FotoLucas} alt="Foto do Lucas Baptista" />

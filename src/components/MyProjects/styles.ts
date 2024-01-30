@@ -7,7 +7,7 @@ export const ContainerProject = styled.div`
         font-size: 3rem;
         text-decoration: underline;
         color: ${props => props.theme.colors.inverse};
-        margin: 2rem 0;
+        margin: 6rem 0 0 0;
     }
     
 `

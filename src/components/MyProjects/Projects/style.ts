@@ -14,6 +14,7 @@ export const InfosContainer = styled.div`
     
     h3{
         font-size: 1.7rem;
+        color: ${props => props.theme.colors.secondary}
     }
 
     p{
@@ -25,7 +26,7 @@ export const InfosContainer = styled.div`
     }
 
     .techs_project{
-        background-color: purple;
+        
     }
 `
 

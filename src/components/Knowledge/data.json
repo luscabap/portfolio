@@ -30,5 +30,25 @@
     {
         "title": "Bootstrap",
         "icon": "../public/icons/Bootstrap.svg"
+    },
+    {
+        "title": "GIT",
+        "icon": "../public/icons/git.svg"
+    },
+    {
+        "title": "SQL",
+        "icon": "../public/icons/sql.svg"
+    },
+    {
+        "title": "C#",
+        "icon": "../public/icons/csharp.svg"
+    },
+    {
+        "title": "Node",
+        "icon": "../public/icons/node.svg"
+    },
+    {
+        "title": "Styled-Components",
+        "icon": "../public/icons/styled-components.svg"
     }
 ]

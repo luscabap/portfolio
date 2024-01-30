@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     height: 5rem;
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.colors.terciary};
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
     h1{
-        color: ${props => props.theme.colors.terciary};
+        color: ${props => props.theme.colors.primary};
     }
 
     .lista{
