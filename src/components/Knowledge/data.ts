@@ -1,4 +1,4 @@
-[
+export const dataKnowledge = [
     {
         "title": "React",
         "icon": "../public/icons/react.svg"

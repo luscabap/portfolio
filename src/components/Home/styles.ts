@@ -66,8 +66,10 @@ export const ContainerBotoes = styled.div`
             align-items: center;
         }
         &__btn:hover{
-            background-color: ${desaturate(0.04, '#1D303B')};
-            color:${desaturate(0.1,'#B3E7FD')};
+            /* background-color: ${desaturate(0.04, '#1D303B')};
+            color:${desaturate(0.1,'#B3E7FD')}; */
+            background-color: ${props => props.theme.colors.hover};
+            color: ${props => props.theme.colors.primary}
         }
     }
 

@@ -11,6 +11,7 @@ declare module 'styled-components' {
 
             contrast: string,
             background: string,
+            hover: string,
             inverse: string
         }
     }

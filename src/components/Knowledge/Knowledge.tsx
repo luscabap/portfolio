@@ -1,6 +1,6 @@
 import * as Styles from './styles';
 import ContainerKnowledge from './ContainerKnowledge/ContainerKnowledge';
-import data from './data.json';
+import { dataKnowledge } from './data';
 
 export default function Knowledge(){
     return(
@@ -8,7 +8,7 @@ export default function Knowledge(){
             <h2>Conhecimentos</h2>
             <Styles.teste>            
             {
-                data.map((item, i) => <ContainerKnowledge title={item.title} key={i} icon={item.icon}/>)
+                dataKnowledge.map((item, i) => <ContainerKnowledge title={item.title} key={i} icon={item.icon}/>)
             }
             </Styles.teste>
         </Styles.Container>

@@ -7,6 +7,7 @@ export default {
         terciary: "#1D303B",
         contrast: "#473622",
         background: "#1f2326",
+        hover: "#36596E",
         inverse: "#FFFFFF"
     },
 }

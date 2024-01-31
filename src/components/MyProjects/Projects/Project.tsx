@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import * as Styles from './style';
-import { FaReact } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import TechsProject from './TechsProject/TechsProject';
 
 interface IProjectProps{
     title: string,
@@ -23,8 +22,9 @@ export default function Project({ title, description, img }: IProjectProps){
                 <p>{description}</p>
                 <div className='techs_project'>
                     <h4>Tecnologias usadas</h4>
-                    <FaReact />
-                    <SiTypescript />
+                    {
+                        
+                    }
                 </div>
             </Styles.InfosContainer>
             <Styles.ImgContainer onMouseEnter={exibiOpcoes} onMouseOut={() => setState("")} className={state}>
