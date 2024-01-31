@@ -1,12 +1,18 @@
+import { techIcons } from "../../../TechIcons";
+import * as Styles from './style'
+
 interface ITechsProps{
-    tecnologias: string
+    teste: string
 }
 
-export default function TechsProject({ tecnologias }: ITechsProps){
+export default function TechsProject({ teste }: ITechsProps){
     return (
         <>
-            <h1>teste</h1>
-            <p>{tecnologias}</p>
+        <Styles.Container>  
+            {
+                techIcons[teste]
+            }
+        </Styles.Container>
         </>
     )
 }

@@ -7,7 +7,7 @@ export const ProjectContainer = styled.div`
     align-items: start;
     justify-content: center;
     gap: 1.4rem;
-    margin: 3rem 0;
+    margin: 3rem 0 6rem 0;
 `
 
 export const InfosContainer = styled.div`
@@ -25,8 +25,9 @@ export const InfosContainer = styled.div`
         text-indent: 2rem;
     }
 
-    .techs_project{
-        
+    h4{
+        color: ${props => props.theme.colors.primary};
+        font-size: 1.1rem;
     }
 `
 
@@ -45,4 +46,12 @@ export const ImgContainer = styled.div`
         max-height: 100%;
         border-radius: 2rem;
     }
+`
+
+export const TechsContainer = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
 `

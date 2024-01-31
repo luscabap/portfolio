@@ -7,7 +7,7 @@ export default function MyProjects(){
         <Styles.ContainerProject>
             <h2>Meus Projetos</h2>
             {
-                dataProjects.map((item, i) => <Project key={i} title={item.title} description={item.description} img={item.img}/>)
+                dataProjects.map(item => <Project key={item.id} title={item.title} description={item.description} img={item.img} techs={item.techs}/>)
             }
         </Styles.ContainerProject>
         
