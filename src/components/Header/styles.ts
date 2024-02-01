@@ -27,6 +27,10 @@ export const Container = styled.div`
             transition: 0.5s;
         }
     }
+
+    a{
+        text-decoration: none;
+    }
 `
 
 export const ContainerIcon = styled.div`

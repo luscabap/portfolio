@@ -13,13 +13,13 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
 
     return (
         <Container>
-            <h1>LUSCABAP</h1>
+            <a href='#home'><h1>LUSCABAP</h1></a>
             <ul className={"lista"}>
-                <li className={"lista__item"}>HOME</li>
-                <li className={"lista__item"}>SOBRE MIM</li>
-                <li className={"lista__item"}>CONHECIMENTOS</li>
-                <li className={"lista__item"}>PROJETOS</li>
-                <li className={"lista__item"}>CONTATO</li>
+                <a href='#home'><li className={"lista__item"}>HOME</li></a>
+                <a href='#about-me'><li className={"lista__item"}>SOBRE MIM</li></a>
+                <a href='#knowledge'><li className={"lista__item"}>CONHECIMENTOS</li></a>
+                <a href='#project'><li className={"lista__item"}>PROJETOS</li></a>
+                <a href='#contact'><li className={"lista__item"}>CONTATO</li></a>
             </ul>
             <ContainerIcon onClick={toggleTheme}>
                 {

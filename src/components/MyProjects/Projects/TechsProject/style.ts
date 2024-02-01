@@ -7,4 +7,7 @@ export const Container = styled.div`
         size: 40;
     }
     
+    .textTech{
+        display: none;
+    }
 `

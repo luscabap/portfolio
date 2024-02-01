@@ -3,7 +3,7 @@ import FotoLucas from '../../../public/lucas.png'
 
 export default function AboutMe() {
     return (
-        <Styles.Container>
+        <Styles.Container id="about-me">
             <div className='infos'>
                 <h2>Sobre mim</h2>
                 <h3>Lucas Baptista da Silva</h3>

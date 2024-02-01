@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Conctact() {
     return (
-        <Styles.ContainerContact>
+        <Styles.ContainerContact id='contact'>
             <h2>Contato</h2>
             <Styles.ContainerContactIcons>
                 <a className='containerContact_Icon' href='https://github.com/luscabap' target='_blank'>

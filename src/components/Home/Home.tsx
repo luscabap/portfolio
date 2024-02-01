@@ -2,12 +2,9 @@ import * as Styles from './styles';
 import { FaDev } from "react-icons/fa";
 import { GithubLogo, DownloadSimple } from "@phosphor-icons/react"
 
-
-
-
 export default function Home(){
     return (
-        <Styles.Container>
+        <Styles.Container id="home">
             <h1><FaDev size={50} className='icone_dev'/>Olá, o meu nome é <strong>Lucas Baptista</strong></h1>
             <h2>Desenvolvedor Front-End</h2>
             <Styles.ContainerBotoes>

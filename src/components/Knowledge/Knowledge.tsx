@@ -4,7 +4,7 @@ import { dataKnowledge } from './data';
 
 export default function Knowledge(){
     return(
-        <Styles.Container>
+        <Styles.Container id="knowledge">
             <h2>Conhecimentos</h2>
             <Styles.teste>            
             {
