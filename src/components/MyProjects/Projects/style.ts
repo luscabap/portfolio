@@ -52,6 +52,6 @@ export const TechsContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 1.7rem;
     margin: 1rem 0 0 0;
 `

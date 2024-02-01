@@ -5,11 +5,11 @@ interface IProjectProps{
     title: string,
     description: string,
     img: string,
-    id?: number,
+    id: number,
     techs: string[];
 }
 
-export default function Project({ title, description, img, techs }: IProjectProps){
+export default function Project({ title, description, img, techs, id }: IProjectProps){
 
     return (
         <Styles.ProjectContainer>
@@ -21,10 +21,11 @@ export default function Project({ title, description, img, techs }: IProjectProp
                     <Styles.TechsContainer>
                         {
                             techs.map(item => (
-                            <TechsProject 
-                                key={item}
-                                teste={item}
-                            />
+                                <TechsProject 
+                                    key={id}
+                                    techs={item}
+                                    id={id}
+                                />
                             ))
                         }
                     </Styles.TechsContainer>

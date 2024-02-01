@@ -1,7 +1,7 @@
 export const dataProjects = [
     {
         "id": 1,
-        "tile": "TCC E-Commerce",
+        "title": "E-Commerce TCC",
         "description": "O projeto Ecommerce TCC foi desenvolvido utilizando as tecnologias React, TypeScript e estilização através de módulos SASS. Seu principal propósito foi consolidar meus conhecimentos para apresentação aos professores da faculdade. Além do design, um aspecto valioso do site é a componentização dos elementos gráficos, a modularização dos estilos, a tipagem de dados e a organização e legibilidade do código.",
         "img": "../public/projects/tcc.png",
         "techs": 

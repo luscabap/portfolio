@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    color: ${props => props.theme.colors.primary};
-    size: 40;
+
+    .icon__Tech{
+        color: ${props => props.theme.colors.primary};
+        size: 40;
+    }
+    
 `

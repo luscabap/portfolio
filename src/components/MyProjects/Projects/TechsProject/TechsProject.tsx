@@ -1,17 +1,28 @@
+import { Tooltip, IconButton, Zoom } from "@mui/material";
 import { techIcons } from "../../../TechIcons";
-import * as Styles from './style'
+import * as Styles from './style';
 
 interface ITechsProps{
-    teste: string
+    techs: string,
+    id: number
 }
 
-export default function TechsProject({ teste }: ITechsProps){
+export default function TechsProject({ techs, id }: ITechsProps){
     return (
         <>
-        <Styles.Container>  
-            {
-                techIcons[teste]
-            }
+        <Styles.Container>
+            <Tooltip 
+                key={id} 
+                title={techs}
+                TransitionComponent={Zoom}
+                TransitionProps={{ timeout: 400 }}
+            >
+                <IconButton className="icon__Tech">      
+                {
+                    techIcons[techs]
+                }
+                </IconButton>
+            </Tooltip>
         </Styles.Container>
         </>
     )
