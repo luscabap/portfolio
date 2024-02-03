@@ -11,18 +11,25 @@ import * as Styles from './styles'
 import MyProjects from '../../components/MyProjects/MyProjects';
 import Footer from '../../components/Footer/Footer';
 import Conctact from '../../components/Contact/Contact';
+import { useState } from 'react';
+import { useScrollDirection } from '../../utils/useScrollDirection';
 
 export default function HomePage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
     const toggleTheme = () => {
         setTheme(theme.title === 'darkTheme' ? light : dark)
     }
+    
+    const [scroll, setScroll] = useState("display_default");
+    function handleScroll(){
+        scroll === "display_default" ? setScroll("display_fixed") : setScroll("display_default");
+    }
 
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyle />
-            <Header toggleTheme={toggleTheme} />
-            <Styles.ContainerMain>
+            <Header toggleTheme={toggleTheme} position={scroll} />
+            <Styles.ContainerMain >
                 <Home />
                 <AboutMe />
                 <Knowledge />

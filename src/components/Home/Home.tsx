@@ -1,6 +1,7 @@
 import * as Styles from './styles';
 import { FaDev } from "react-icons/fa";
-import { GithubLogo, DownloadSimple } from "@phosphor-icons/react"
+import { GithubLogo, DownloadSimple } from "@phosphor-icons/react";
+import curriculo from '../../../public/download/curriculo-lucasbaptista.pdf'
 
 export default function Home(){
     return (
@@ -14,7 +15,7 @@ export default function Home(){
                         <GithubLogo size={40} />
                     </button>
                 </a>
-                <a href='./download' download="curriculo-lucasbaptista"
+                <a href={curriculo} target='_blank'
                 className='container__cv'>
                     <button className='container__cv__btn'>
                         Download CV
