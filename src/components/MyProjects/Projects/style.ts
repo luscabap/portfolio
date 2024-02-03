@@ -46,6 +46,38 @@ export const ImgContainer = styled.div`
         max-height: 100%;
         border-radius: 2rem;
     }
+
+    .anchors{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        & > a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            margin: 0.8rem 0 0 0;
+            text-decoration: none;
+            
+            h5{
+                color: ${props => props.theme.colors.inverse};
+                text-decoration: underline;
+                font-weight: normal;
+                font-size: 1rem;
+            }
+
+            .anchor__icon{
+                color: ${props => props.theme.colors.primary};
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
 `
 
 export const TechsContainer = styled.div`

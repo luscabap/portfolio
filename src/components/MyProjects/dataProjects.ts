@@ -10,7 +10,9 @@ export const dataProjects = [
                 "TypeScript",
                 "SASS",
                 "Vite"
-            ]
+            ],
+        "deploy": "https://tcc-ij3n.vercel.app/",
+        "repo": "https://github.com/luscabap/tcc"
     },
     {
         "id": 2,
@@ -22,7 +24,10 @@ export const dataProjects = [
                 "React",
                 "TypeScript",
                 "CSS"
-            ]
+            ],
+        "deploy": "https://lusca-projeto-organo.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-projeto_organo"
+
     },
     {
         "id": 3,
@@ -33,7 +38,9 @@ export const dataProjects = [
             [
                 "React",
                 "CSS"
-            ]
+            ],
+        "deploy": "https://lusca-projeto-hello-word.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-projeto_hello-word"
     },
     {
         "id": 4,
@@ -44,7 +51,9 @@ export const dataProjects = [
             [
                 "REACT",
                 "SASS"
-            ]
+            ],
+        "deploy": "https://lusca-projeto-space.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-projeto_space"
     },
     {
         "id": 5,
@@ -55,6 +64,8 @@ export const dataProjects = [
         [
             "HTML",
             "Tailwind"
-        ]
+        ],
+        "deploy": "https://github.com/luscabap",
+        "repo": "https://github.com/luscabap/lusca-projeto-pagenw"
     }
 ]

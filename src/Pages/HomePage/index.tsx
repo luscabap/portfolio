@@ -29,7 +29,7 @@ export default function HomePage() {
         <ThemeProvider theme={theme}>
             <GlobalStyle />
             <Header toggleTheme={toggleTheme} position={scroll} />
-            <Styles.ContainerMain >
+            <Styles.ContainerMain>
                 <Home />
                 <AboutMe />
                 <Knowledge />

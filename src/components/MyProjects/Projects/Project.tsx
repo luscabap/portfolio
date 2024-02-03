@@ -1,15 +1,21 @@
+import { useState } from 'react';
 import TechsProject from './TechsProject/TechsProject';
 import * as Styles from './style';
+import { Rocket, Code } from '@phosphor-icons/react';
 
-interface IProjectProps{
+interface IProjectProps {
     title: string,
     description: string,
     img: string,
     id: number,
-    techs: string[];
+    techs: string[],
+    deploy: string,
+    repo: string
 }
 
-export default function Project({ title, description, img, techs, id }: IProjectProps){
+export default function Project({ title, description, img, techs, id, deploy, repo }: IProjectProps) {
+
+    const [anchorBackground, setAnchorBackground] = useState();
 
     return (
         <Styles.ProjectContainer>
@@ -21,7 +27,7 @@ export default function Project({ title, description, img, techs, id }: IProject
                     <Styles.TechsContainer>
                         {
                             techs.map(item => (
-                                <TechsProject 
+                                <TechsProject
                                     key={id}
                                     techs={item}
                                     id={id}
@@ -33,6 +39,18 @@ export default function Project({ title, description, img, techs, id }: IProject
             </Styles.InfosContainer>
             <Styles.ImgContainer>
                 <img src={img} alt={title} />
+
+                <div className='anchors'>
+                    <a href={deploy} target='_blank'>
+                        <Rocket size={32} className='anchor__icon' />
+                        <h5>Deploy</h5>
+                    </a>
+
+                    <a href={repo} target='_blank'>
+                        <Code size={32} className='anchor__icon' />
+                        <h5>Repositório</h5>
+                    </a>
+                </div>
             </Styles.ImgContainer>
         </Styles.ProjectContainer>
     )

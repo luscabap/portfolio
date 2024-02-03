@@ -22,6 +22,7 @@ export const Container = styled.div`
         position: fixed;
         top: 0.7rem; 
         width: 60%;
+        z-index: 100;
         background-color: ${props => props.theme.colors.terciary};
         padding: 1rem;
         border-radius: 1rem;
