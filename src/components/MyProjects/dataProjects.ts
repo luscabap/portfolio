@@ -49,7 +49,7 @@ export const dataProjects = [
         "img": "../public/projects/space.png",
         "techs": 
             [
-                "REACT",
+                "React",
                 "SASS"
             ],
         "deploy": "https://lusca-projeto-space.vercel.app/",

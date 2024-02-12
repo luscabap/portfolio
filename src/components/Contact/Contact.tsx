@@ -6,14 +6,14 @@ import { MdEmail } from "react-icons/md";
 export default function Conctact() {
     return (
         <Styles.ContainerContact id='contact'>
-            <h2>Contato</h2>
+            <h2 className='containerContact__title'>Contato</h2>
             <Styles.ContainerContactIcons>
                 <a className='containerContact_Icon' href='https://github.com/luscabap' target='_blank'>
                     <FaGithub size={70} color={"#94c6d1"} />
                     <h4>GitHub</h4>
                     <p>@luscabap</p>
                 </a>
-                <a className='containerContact_Icon' href='' target='_blank'>
+                <a className='containerContact_Icon'>
                     <MdEmail size={70} color={"#94c6d1"} />
                     <h4>E-mail</h4>
                     <p>lucasbaptistasilva.dev@gmail.com</p>

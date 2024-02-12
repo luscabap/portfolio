@@ -1,7 +1,27 @@
 import styled from 'styled-components';
 
 
-export const Container = styled.div`
+export const Container = styled.header`
+
+@media screen and (max-width: 425px){
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+
+        .lista__item{
+            display: none;
+        }
+
+        .menuburguer{
+            display: block;
+        }   
+
+        h1{
+            
+        }
+        
+    }
+
      display: flex;
      align-items: center;
      justify-content: center;
@@ -53,6 +73,10 @@ export const Container = styled.div`
 
     a{
         text-decoration: none;
+    }
+
+    .menuburguer{
+        display: none;
     }
 `
 

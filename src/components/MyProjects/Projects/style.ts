@@ -8,6 +8,11 @@ export const ProjectContainer = styled.div`
     justify-content: center;
     gap: 1.4rem;
     margin: 3rem 0 6rem 0;
+
+    @media screen and (max-width: 425px){
+        display: flex;
+        flex-wrap: wrap;
+    }
 `
 
 export const InfosContainer = styled.div`
@@ -60,6 +65,16 @@ export const ImgContainer = styled.div`
             gap: 0.6rem;
             margin: 0.8rem 0 0 0;
             text-decoration: none;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            transition: 0.3s;
+
+            &:hover{
+                box-shadow: 1px 1px 5px 5px ${props => props.theme.colors.primary};
+                padding: 0.5rem;
+                border-radius: 1rem;
+                transition: 0.3s;
+            }
             
             h5{
                 color: ${props => props.theme.colors.inverse};
@@ -70,9 +85,11 @@ export const ImgContainer = styled.div`
 
             .anchor__icon{
                 color: ${props => props.theme.colors.primary};
+                
 
                 &:hover{
                     cursor: pointer;
+
                 }
             }
         }

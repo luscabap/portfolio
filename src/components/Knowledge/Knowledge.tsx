@@ -5,12 +5,12 @@ import { dataKnowledge } from './data';
 export default function Knowledge(){
     return(
         <Styles.Container id="knowledge">
-            <h2>Conhecimentos</h2>
-            <Styles.teste>            
+            <h2 className='containerKnowledge__title'>Conhecimentos</h2>
+            <Styles.ContainerItemKnowledge className=''>            
             {
                 dataKnowledge.map((item, i) => <ContainerKnowledge title={item.title} key={i} icon={item.icon}/>)
             }
-            </Styles.teste>
+            </Styles.ContainerItemKnowledge>
         </Styles.Container>
     )
 }

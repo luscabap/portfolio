@@ -6,8 +6,12 @@ import curriculo from '../../../public/download/curriculo-lucasbaptista.pdf'
 export default function Home(){
     return (
         <Styles.Container id="home">
-            <h1><FaDev size={50} className='icone_dev'/>Olá, o meu nome é <strong>Lucas Baptista</strong></h1>
-            <h2>Desenvolvedor Front-End</h2>
+            <h1 className='home__title'>
+                <FaDev size={50} className='icone_dev'/>
+                Olá, o meu nome é 
+                    <strong>Lucas Baptista</strong>
+            </h1>
+            <h2 className='home__subtitle'>Desenvolvedor Front-End</h2>
             <Styles.ContainerBotoes>
                 <a href='https://github.com/luscabap' target='_blank' className='container__github'>
                     <button className='container__github__btn'>

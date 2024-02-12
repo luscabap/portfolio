@@ -15,4 +15,12 @@ export const ContainerFooter = styled.footer`
             text-decoration: none;
         }
     }
+
+    @media screen and (max-width: 425px){
+        text-align: center;
+        .containerFooter__text{
+            font-size: 1rem;
+            margin: 2rem 0 0 0;
+        }
+    }
 `

@@ -1,13 +1,41 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+
     display: flex;
     flex-direction: row;
     margin: 6rem auto;
 
+    @media screen and (max-width: 425px){
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .infos{
+
+            .infos__aboutme{
+                font-size: 2.5rem;
+            }
+
+            .infos__name{
+                font-size: 1.5rem;
+            }
+
+            .infos__text{
+                font-size: 1rem;
+            }
+        }
+
+        .photo{
+            margin: -3rem 0 -3rem 0;
+        }
+
+    }
+
     .infos{
 
-        h2 {
+        h2{
         font-style: bold;
         font-size: 3rem;
         text-decoration: underline;

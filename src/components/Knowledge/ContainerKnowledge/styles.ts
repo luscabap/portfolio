@@ -14,8 +14,16 @@ export const Container = styled.div`
     width: 20%;
     transition: 0.5s;
 
+    @media screen and (max-width: 425px){
+        width: 30%;
+        
+        .knowledge__title{
+            font-size: 0.8rem;
+        }
+    }
+
     &:hover{
-        transform: scale(1.05);
+        transform: scale(0.95);
         transition: 0.5s;
     }
 

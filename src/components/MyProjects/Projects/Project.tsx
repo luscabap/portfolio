@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import TechsProject from './TechsProject/TechsProject';
 import * as Styles from './style';
 import { Rocket, Code } from '@phosphor-icons/react';
@@ -14,8 +13,6 @@ interface IProjectProps {
 }
 
 export default function Project({ title, description, img, techs, id, deploy, repo }: IProjectProps) {
-
-    const [anchorBackground, setAnchorBackground] = useState();
 
     return (
         <Styles.ProjectContainer>

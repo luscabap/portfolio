@@ -2,6 +2,27 @@ import styled from "styled-components";
 import { desaturate } from 'polished'
 
 export const Container = styled.div`
+
+    @media screen and (max-width: 425px){
+        flex-wrap: wrap;
+        gap: 0;
+
+        .home__title{
+            flex-wrap: wrap;
+            margin: 7rem 0 0 0;
+            font-size: 2rem;
+
+            strong{
+                margin: 0 0 1rem 0;
+                font-size: 2rem;
+            }
+        }
+
+        .home__subtitle{
+            font-size: 1.5rem;
+        }
+    }
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +53,11 @@ export const Container = styled.div`
 `
 
 export const ContainerBotoes = styled.div`
+    @media screen and (max-width: 425px){
+        display: flex;
+        flex-direction: column;
+    }
+
     display: flex;
     
     button{

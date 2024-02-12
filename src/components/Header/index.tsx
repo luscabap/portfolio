@@ -1,8 +1,7 @@
-import { MoonStars, SunDim } from '@phosphor-icons/react';
+import { MoonStars, SunDim, List } from '@phosphor-icons/react';
 import React, { useContext } from 'react';
 import { ThemeContext } from 'styled-components';
-import { Container, ContainerHeader, ContainerIcon } from './styles';
-import { useRef } from 'react';
+import { BotaoTeste, Container, ContainerHeader, ContainerIcon } from './styles';
 
 interface Props {
     toggleTheme(): void;
@@ -28,6 +27,7 @@ const Header: React.FC<Props> = ({ toggleTheme, position }) => {
                         title === "darkTheme" ? <MoonStars size={35} color='black' /> : <SunDim size={35} color='yellow'/>
                     }
                 </ContainerIcon>
+                <List size={32} className={"menuburguer"}/>
             </div>
         </Container>
     )

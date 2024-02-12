@@ -10,6 +10,13 @@ export const ContainerContact = styled.div`
         color: ${props => props.theme.colors.inverse};
         margin: 0 0 1.7rem 0;
     }
+
+    @media screen and (max-width: 425px){
+        .containerContact__title{
+            font-size: 2rem;
+        }
+
+    }
 `
 
 export const ContainerContactIcons = styled.div`
@@ -18,6 +25,15 @@ export const ContainerContactIcons = styled.div`
     justify-content: center;
     justify-content: space-evenly;
     margin: 5rem 0 0 0;
+
+    @media screen and (max-width: 425px){
+        flex-wrap: wrap;
+
+        .containerContact_Icon{
+            width: 100%;
+            margin: 0 0 2rem 0;
+        }
+    }
 
     .containerContact_Icon{
         display: flex;
