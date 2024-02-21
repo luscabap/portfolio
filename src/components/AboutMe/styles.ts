@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-
     display: flex;
     flex-direction: row;
     margin: 6rem auto;
@@ -31,6 +30,12 @@ export const Container = styled.div`
             margin: -3rem 0 -3rem 0;
         }
 
+    }
+
+    @media screen and (max-width: 768px){
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .infos{

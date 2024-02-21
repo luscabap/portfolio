@@ -13,6 +13,12 @@ export const ProjectContainer = styled.div`
         display: flex;
         flex-wrap: wrap;
     }
+
+    @media screen and (max-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 `
 
 export const InfosContainer = styled.div`
@@ -93,6 +99,10 @@ export const ImgContainer = styled.div`
                 }
             }
         }
+    }
+
+    @media screen and (max-width: 768px){
+        margin: 0 1rem;
     }
 
 `

@@ -22,6 +22,15 @@ export const Container = styled.div`
         }
     }
 
+    @media screen and (max-width: 768px){
+
+        .knowledge__title{
+            font-size: 0.9rem;
+        }
+    }
+    
+
+
     &:hover{
         transform: scale(0.95);
         transition: 0.5s;

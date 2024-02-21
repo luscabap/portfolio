@@ -19,17 +19,12 @@ export default function HomePage() {
     const toggleTheme = () => {
         setTheme(theme.title === 'darkTheme' ? light : dark)
     }
-    
-    const [scroll, setScroll] = useState("display_default");
-    function handleScroll(){
-        scroll === "display_default" ? setScroll("display_fixed") : setScroll("display_default");
-    }
 
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyle />
-            <Header toggleTheme={toggleTheme} position={scroll} />
-            <Styles.ContainerMain>
+            <Header toggleTheme={toggleTheme} />
+            <Styles.ContainerMain className='Container_teste'>
                 <Home />
                 <AboutMe />
                 <Knowledge />

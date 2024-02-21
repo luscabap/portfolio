@@ -12,6 +12,7 @@ export const Container = styled.div`
             font-size: 2rem;
         }
     }
+
     
     h2{
         font-style: bold;

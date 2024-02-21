@@ -9,7 +9,6 @@ export const Container = styled.div`
 
         .home__title{
             flex-wrap: wrap;
-            margin: 7rem 0 0 0;
             font-size: 2rem;
 
             strong{
@@ -20,6 +19,22 @@ export const Container = styled.div`
 
         .home__subtitle{
             font-size: 1.5rem;
+        }
+    };
+
+    @media screen and (max-width: 768px){
+        .home__title{
+            flex-wrap: wrap;
+            font-size: 2.5rem;
+
+            strong{
+                margin: 0 0 1rem 0;
+                font-size: 3rem;
+            }
+        }
+
+        .home__subtitle{
+            font-size: 1.8rem;
         }
     }
 
