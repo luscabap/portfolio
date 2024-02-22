@@ -11,8 +11,6 @@ import * as Styles from './styles'
 import MyProjects from '../../components/MyProjects/MyProjects';
 import Footer from '../../components/Footer/Footer';
 import Conctact from '../../components/Contact/Contact';
-import { useState } from 'react';
-import { useScrollDirection } from '../../utils/useScrollDirection';
 
 export default function HomePage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);

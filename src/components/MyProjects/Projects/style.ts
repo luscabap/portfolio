@@ -25,7 +25,8 @@ export const InfosContainer = styled.div`
     
     h3{
         font-size: 1.7rem;
-        color: ${props => props.theme.colors.secondary}
+        color: ${props => props.theme.colors.secondary};
+        text-decoration: underline;
     }
 
     p{

@@ -17,7 +17,6 @@ export const Container = styled.div`
     h2{
         font-style: bold;
         font-size: 3rem;
-        text-decoration: underline;
         color: ${props => props.theme.colors.inverse};
         margin: 0 0 2rem 0;
     }

@@ -8,6 +8,7 @@ export const Container = styled.header`
   width: 100%;
   top: 0;
   z-index: 1000;
+  transition: 0.5s all ease-in-out;
 
   .menuburguer {
     display: none;
@@ -63,11 +64,12 @@ export const Container = styled.header`
         border-radius: 1rem;
     } */
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 650px) {
     position: fixed;
     z-index: 1000;
     width: 100%;
     top: 0;
+    transition: 0.5s all ease-in-out;
     
 
     .container__display_default{
@@ -89,7 +91,7 @@ export const Container = styled.header`
             border-top: 0;
             border-radius: 0 0 1rem 1rem;
             opacity: 100%;
-            transition: 1s all ease-in-out;
+            transition: 0.5s all ease-in-out;
         }
 
         .lista__item {
@@ -103,7 +105,7 @@ export const Container = styled.header`
     } 
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 850px){
     position: fixed;
     z-index: 1000;
     width: 100%;

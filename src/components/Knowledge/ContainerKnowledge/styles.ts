@@ -14,7 +14,7 @@ export const Container = styled.div`
     width: 20%;
     transition: 0.5s;
 
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 600px){
         width: 30%;
         
         .knowledge__title{
@@ -22,8 +22,9 @@ export const Container = styled.div`
         }
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 950px){
 
+        
         .knowledge__title{
             font-size: 0.9rem;
         }

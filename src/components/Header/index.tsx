@@ -19,7 +19,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
     return (
         <Container>
             <div className="container__display_default">
-                <a href='#home'><h1 className='title'>LUSCABAP</h1></a>
+                <a href='#home'><h1 className='title'>&lt;LUSCABAP /&gt;</h1></a>
                 <ul className={menu}>
                     <a href='#home'><li className="lista__item">HOME</li></a>
                     <a href='#about-me'><li className="lista__item">SOBRE MIM</li></a>
