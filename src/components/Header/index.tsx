@@ -1,11 +1,11 @@
 import { MoonStars, SunDim, List } from '@phosphor-icons/react';
 import React, { useContext, useState } from 'react';
 import { ThemeContext } from 'styled-components';
-import { BotaoTeste, Container, ContainerHeader, ContainerIcon } from './styles';
+import { Container, ContainerIcon } from './styles';
 
 interface Props {
     toggleTheme(): void;
-    position: string;
+    position?: string;
 }
 
 const Header: React.FC<Props> = ({ toggleTheme }) => {
