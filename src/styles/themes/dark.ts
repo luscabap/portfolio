@@ -10,4 +10,4 @@ export default {
         hover: "#36596E",
         inverse: "#FFFFFF"
     },
-}
+};

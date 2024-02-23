@@ -1,5 +1,5 @@
 export default {
-    title: "lightheme",
+    title: "lightTheme",
 
     colors: {
         primary: "#6D95F5",
@@ -10,4 +10,4 @@ export default {
         hover: "#8FBAC4",
         inverse: "#000000"
     },
-}
+};

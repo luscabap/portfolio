@@ -1,7 +1,8 @@
 import { MoonStars, SunDim, List } from '@phosphor-icons/react';
-import React, { useContext, useState } from 'react';
-import { ThemeContext } from 'styled-components';
+import React, { useState } from 'react';
 import { Container, ContainerIcon } from './styles';
+import dark from '../../styles/themes/dark';
+import light from '../../styles/themes/light';
 
 interface Props {
     toggleTheme(): void;
@@ -9,8 +10,8 @@ interface Props {
 }
 
 const Header: React.FC<Props> = ({ toggleTheme }) => {
-    const {colors, title} = useContext(ThemeContext);
-    const [menu, setMenu] = useState("lista__desktop")
+    const [theme] = useState(light)
+    const [menu, setMenu] = useState("lista__desktop");
 
     function handleMenuBurguer(){
         setMenu(prevMenu => prevMenu === "lista__desktop" ? "lista__mobile" : "lista__desktop")
@@ -29,13 +30,15 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 </ul>
                 <ContainerIcon onClick={toggleTheme}>
                     {
-                        title === "darkTheme" ? <MoonStars size={35} color='black' /> : <SunDim size={35} color='yellow'/>
+                        theme === dark ? <MoonStars size={35} color='black' />
+                        : <SunDim size={35} color='yellow'/>
                     }
                 </ContainerIcon>
-                <List 
+                <List
                     size={32} 
                     className='menuburguer' 
-                    onClick={handleMenuBurguer}/>
+                    onClick={handleMenuBurguer}
+                />
             </div>
         </Container>
     )

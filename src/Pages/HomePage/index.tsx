@@ -16,7 +16,7 @@ export default function HomePage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
     const toggleTheme = () => {
         setTheme(theme.title === 'darkTheme' ? light : dark)
-    }
+    };
 
     return (
         <ThemeProvider theme={theme}>
