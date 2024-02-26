@@ -14,11 +14,21 @@ export const Container = styled.div`
     width: 20%;
     transition: 0.5s;
 
+    &:hover{
+        transform: scale(0.95);
+        transition: 0.5s;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        color: ${props => props.theme.colors.secondary}
+    }
+
     @media screen and (max-width: 600px){
         width: 30%;
         
         .knowledge__title{
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
     }
 
@@ -32,13 +42,5 @@ export const Container = styled.div`
     
 
 
-    &:hover{
-        transform: scale(0.95);
-        transition: 0.5s;
-    }
 
-    h1{
-        font-size: 1.5rem;
-        color: ${props => props.theme.colors.secondary}
-    }
 `

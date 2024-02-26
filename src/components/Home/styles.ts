@@ -3,9 +3,11 @@ import { desaturate } from 'polished'
 
 export const Container = styled.div`
 
+
     @media screen and (max-width: 425px){
         flex-wrap: wrap;
         gap: 0;
+        text-align: center;
 
         .home__title{
             flex-wrap: wrap;

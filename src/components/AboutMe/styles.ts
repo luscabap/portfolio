@@ -40,9 +40,9 @@ export const Container = styled.div`
 
     .infos{
 
-        .infos__aboutme{
+        .infos__title_aboutme{
         font-weight:  600;
-        font-size: 3rem;
+        font-size: 2.3rem;
         color: ${props => props.theme.colors.inverse};
         margin: 0 0 1.7rem 0;
         }

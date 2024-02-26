@@ -11,7 +11,7 @@ export default function Home(){
                 Olá, o meu nome é 
                     <strong>Lucas Baptista</strong>
             </h1>
-            <h2 className='home__subtitle'>Desenvolvedor Front-End;</h2>
+            <h2 className='home__subtitle'>Desenvolvedor Front-End</h2>
             <Styles.ContainerBotoes>
                 <a href='https://github.com/luscabap' target='_blank' className='container__github'>
                     <button className='container__github__btn'>

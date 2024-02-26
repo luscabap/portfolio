@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const ContainerContact = styled.div`
     margin: 6rem 0 0 0;
 
-    h2{
+    .containerContact__title{
         font-style: bold;
-        font-size: 3rem;
+        font-size: 2.3rem;
         color: ${props => props.theme.colors.inverse};
         margin: 0 0 1.7rem 0;
     }

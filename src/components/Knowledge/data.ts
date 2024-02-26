@@ -29,7 +29,7 @@ export const dataKnowledge = [
     },
     {
         "title": "Bootstrap",
-        "icon": "Bootstrap.svg"
+        "icon": "bootstrap.svg"
     },
     {
         "title": "GIT",

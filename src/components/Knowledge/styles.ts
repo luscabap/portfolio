@@ -1,7 +1,14 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    
+  
+  .containerKnowledge__title{
+        font-style: bold;
+        font-size: 2.3rem;
+        color: ${props => props.theme.colors.inverse};
+        margin: 0 0 2rem 0;
+    }
+
     @media screen and (max-width: 425px){
         display: flex;
         flex-direction: column;
@@ -9,16 +16,8 @@ export const Container = styled.div`
         align-items: center;
 
         .containerKnowledge__title{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
-    }
-
-    
-    h2{
-        font-style: bold;
-        font-size: 3rem;
-        color: ${props => props.theme.colors.inverse};
-        margin: 0 0 2rem 0;
     }
 `;
 

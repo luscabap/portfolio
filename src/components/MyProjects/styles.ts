@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const ContainerProject = styled.div`
 
-    h2{
+    .containerProject__title{
         font-style: bold;
-        font-size: 3rem;
+        font-size: 2.3rem;
         color: ${props => props.theme.colors.inverse};
         margin: 6rem 0 0 0;
     }
