@@ -22,7 +22,7 @@ export const Container = styled.header`
     background-color: ${(props) => props.theme.colors.terciary};
     width: 100%;
   }
-
+  
   a {
     text-decoration: none;
   }
