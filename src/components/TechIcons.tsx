@@ -6,7 +6,9 @@ import {
     SiCss3,
     SiHtml5,
     SiTailwindcss,
-    SiVite
+    SiVite,
+    SiJest,
+    SiTestinglibrary
 } from 'react-icons/si';
 
 export const techIcons: Record<string, React.ReactNode> = {
@@ -17,5 +19,7 @@ export const techIcons: Record<string, React.ReactNode> = {
     CSS: <SiCss3 size={35}/>,
     HTML: <SiHtml5 size={35}/>,
     Tailwind: <SiTailwindcss size={35}/>,
-    Vite: <SiVite size={35}/>
+    Vite: <SiVite size={35}/>,
+    Jest: <SiJest size={35} />,
+    TestingLibrary: <SiTestinglibrary size={35}/>
 }

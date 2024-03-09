@@ -16,17 +16,19 @@ export const dataProjects = [
     },
     {
         "id": 2,
-        "title": "Organo",
-        "description": "O Projeto Organo foi desenvolvido utilizando React, com o intuito principal de aprimorar os meus estudos e conhecer a biblioteca. O site gera cartões individuais de perfil para membros de uma equipe específica. Os usuários podem inserir seus nomes, cargos, imagens de perfil e time de afiliação. Além disso, os usuários têm a opção de criar equipes personalizadas, especificando nomes e cores para as equipes. Esse foi o meu primeiro projeto desenvolvido com React, nele aprendi como os componentes funcionam, como passar props entre eles, a usar o useState e a como funciona a mudança dos estados, usei também o uuid, para gerar códigos únicos para identificar o nome dos times",
-        "img": "organo.png",
+        "title": "Sorteador Amigo Secreto",
+        "description": "O projeto foi desenvolvido utilizando Jest e Testing Library para aperfeiçoar a prática de testes unitários na aplicação, seguindo a metodologia de Desenvolvimento Orientado por Testes (TDD). RecoilJS foi utilizado para criar átomos de informação e hooks personalizados, fornecendo um contexto claro e compreensível para toda a aplicação. React, TypeScript, SASS para criação e estilização da página. Os principais testes da aplicação incluem: Teste do Formulário: verifica se o input está vazio, impede a adição de novos participantes, identifica nomes duplicados e mostra mensagens de erro ao adicionar um novo participante. Teste da Lista de Participantes: cobre dois cenários - quando a lista está vazia, deve ser exibida sem elementos, e quando está preenchida corretamente, mostra todos os participantes. Os demais testes estão descritos no repositório.",
+        "img": "sorteador.png",
         "techs": 
             [
                 "React",
                 "TypeScript",
-                "CSS"
+                "SASS",
+                "Jest",
+                "TestingLibrary"
             ],
-        "deploy": "https://lusca-projeto-organo.vercel.app/",
-        "repo": "https://github.com/luscabap/lusca-projeto_organo"
+        "deploy": "https://lusca-amigo-secreto.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-jest"
 
     },
     {
