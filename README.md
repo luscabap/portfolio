@@ -10,7 +10,7 @@
 
 ## 🖥️ Sobre o projeto
 
-O portfólio foi desenvolvido utilizando as tecnologis de React, TypeScript e StyledComponents, com o intuito de mostrar tanto as minhas Hard Skills quanto as Soft Skills.
+O portfólio foi desenvolvido utilizando as tecnologias de React, TypeScript e StyledComponents, com o intuito de mostrar tanto as minhas Hard Skills quanto as Soft Skills.
 
 O projeto tem 7 seções totalmente responsivas.
 - Header: Uma navbar fixa no site, onde existe o texto âncora para direcioamento as demais seções do portfólio. Além do mais, paraexiste o ícone de Sol/Lua que possuem a funcionalidade de alterar o tema do site entre light e dark.
