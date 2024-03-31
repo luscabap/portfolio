@@ -14,6 +14,7 @@ import Conctact from '../../components/Contact/Contact';
 
 export default function HomePage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
+
     const toggleTheme = () => {
         setTheme(theme.title === 'darkTheme' ? light : dark)
     };
@@ -21,7 +22,7 @@ export default function HomePage() {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyle />
-            <Header toggleTheme={toggleTheme} />
+            <Header toggleTheme={toggleTheme} themeSite={theme}/>
             <Styles.ContainerMain className='Container_teste'>
                 <Home />
                 <AboutMe />

@@ -3,14 +3,16 @@ import React, { useState } from 'react';
 import { Container, ContainerIcon } from './styles';
 import dark from '../../styles/themes/dark';
 import light from '../../styles/themes/light';
+import { DefaultTheme } from 'styled-components/dist/types';
 
 interface Props {
     toggleTheme(): void;
     position?: string;
+    themeSite: DefaultTheme
 }
 
-const Header: React.FC<Props> = ({ toggleTheme }) => {
-    const [theme] = useState(light)
+const Header: React.FC<Props> = ({ toggleTheme, themeSite }) => {
+    const [theme, setTheme] = useState(light);
     const [menu, setMenu] = useState("lista__desktop");
 
     function handleMenuBurguer(){
@@ -30,7 +32,8 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 </ul>
                 <ContainerIcon onClick={toggleTheme}>
                     {
-                        theme === dark ? <MoonStars size={35} color='black' />
+                        
+                        themeSite === light ? <MoonStars size={35} color='black' />
                         : <SunDim size={35} color='yellow'/>
                     }
                 </ContainerIcon>
