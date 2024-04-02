@@ -1,7 +1,6 @@
 import { MoonStars, SunDim, List } from '@phosphor-icons/react';
 import React, { useState } from 'react';
 import { Container, ContainerIcon } from './styles';
-import dark from '../../styles/themes/dark';
 import light from '../../styles/themes/light';
 import { DefaultTheme } from 'styled-components/dist/types';
 
@@ -12,7 +11,6 @@ interface Props {
 }
 
 const Header: React.FC<Props> = ({ toggleTheme, themeSite }) => {
-    const [theme, setTheme] = useState(light);
     const [menu, setMenu] = useState("lista__desktop");
 
     function handleMenuBurguer(){
