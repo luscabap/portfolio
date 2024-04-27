@@ -12,6 +12,14 @@ export const dataKnowledge = [
         "icon": "jest.svg"
     },
     {
+        "title": "Cypress",
+        "icon": "cypress.svg"
+    },
+    {
+        "title": "Zod",
+        "icon": "zod.svg"
+    },
+    {
         "title": "Storybook",
         "icon": "storybook.svg"
     },
@@ -62,5 +70,9 @@ export const dataKnowledge = [
     {
         "title": "Styled-Compo",
         "icon": "styled-components.svg"
-    }
+    },
+    {
+        "title": "Vite",
+        "icon": "vite.svg"
+    },
 ]
