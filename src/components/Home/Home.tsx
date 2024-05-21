@@ -1,7 +1,7 @@
 import * as Styles from './styles';
 import { FaDev } from "react-icons/fa";
 import { GithubLogo, DownloadSimple } from "@phosphor-icons/react";
-import curriculo from '../../../public/download/curriculo-lucasbaptista-2.pdf'
+import curriculo from '../../../public/download/curriculo-lucasbaptista-3.pdf'
 
 export default function Home(){
     return (
