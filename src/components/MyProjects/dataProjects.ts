@@ -79,8 +79,8 @@ export const dataProjects = [
                 "Express",
                 "Mongodb"
             ],
-        "deploy": "https://lusca-amigo-secreto.vercel.app/",
-        "repo": "https://github.com/luscabap/lusca-jest"
+        "deploy": "#",
+        "repo": "https://github.com/luscabap/ecommerce-luscabap"
     }
 
 ]
