@@ -8,7 +8,13 @@ import {
     SiTailwindcss,
     SiVite,
     SiJest,
-    SiTestinglibrary
+    SiTestinglibrary,
+    SiGit,
+    SiNextdotjs,
+    SiNodedotjs,
+    SiExpress,
+    SiMongodb,
+    SiStorybook,
 } from 'react-icons/si';
 
 export const techIcons: Record<string, React.ReactNode> = {
@@ -21,5 +27,11 @@ export const techIcons: Record<string, React.ReactNode> = {
     Tailwind: <SiTailwindcss size={35}/>,
     Vite: <SiVite size={35}/>,
     Jest: <SiJest size={35} />,
-    TestingLibrary: <SiTestinglibrary size={35}/>
+    TestingLibrary: <SiTestinglibrary size={35}/>,
+    GIT: <SiGit size={35} />,
+    Next: <SiNextdotjs size={35} />,
+    Node: <SiNodedotjs size={35} />,
+    Express: <SiExpress size={35} />,
+    Mongodb: <SiMongodb size={35} />,
+    Storybook: <SiStorybook size={35} />,
 }

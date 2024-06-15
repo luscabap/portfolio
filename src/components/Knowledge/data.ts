@@ -1,5 +1,9 @@
 export const dataKnowledge = [
     {
+        "title": "Next",
+        "icon": "nextjs.svg"
+    },
+    {
         "title": "React",
         "icon": "react.svg"
     },
@@ -14,6 +18,14 @@ export const dataKnowledge = [
     {
         "title": "Cypress",
         "icon": "cypress.svg"
+    },
+    {
+        "title": "Node",
+        "icon": "node.svg"
+    },
+    {
+        "title": "Express",
+        "icon": "express.svg"
     },
     {
         "title": "Zod",
@@ -54,18 +66,6 @@ export const dataKnowledge = [
     {
         "title": "SQL",
         "icon": "sql.svg"
-    },
-    {
-        "title": "C#",
-        "icon": "csharp.svg"
-    },
-    {
-        "title": "Node",
-        "icon": "node.svg"
-    },
-    {
-        "title": "Express",
-        "icon": "express.svg"
     },
     {
         "title": "Styled-Compo",

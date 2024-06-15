@@ -1,6 +1,37 @@
 export const dataProjects = [
     {
         "id": 1,
+        "title": "Code Connect",
+        "description": "O projeto foi desenvolvido para aprimorar minhas habilidades com Next.js. Basicamente, simulei uma API com Json-Server e, ao consumi-la, renderizei cards sobre posts das tecnologias. Ao clicar em 'Ver Detalhes', o usuário é direcionado para uma página específica para cada post.",
+        "img": "code-connect.png",
+        "techs": 
+            [
+                "Next",
+                "TypeScript",
+                "CSS",
+                "GIT"
+            ],
+        "deploy": "https://lusca-code-connect.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-code-connect"
+    },
+    {
+        "id": 2,
+        "title": "Apresentação Squad - Pipoca Ágil",
+        "description": "A landing page de apresentação do Squad Roxo Pastel, do Pipoca Ágil, é um projeto voluntário que visa apresentar todos os membros e informar sobre os projetos do time. O projeto foi desenvolvido por mim e mais duas desenvolvedoras, utilizando React, TypeScript, SASS e o código foi versionado utilizando git. Futuramente, serão adicionadas responsividade e testes.",
+        "img": "pipoca-agil.png",
+        "techs": 
+            [
+                "React",
+                "TypeScript",
+                "SASS",
+                "Vite",
+                "GIT"
+            ],
+        "deploy": "https://pipoca-agil-apresentacao.vercel.app/",
+        "repo": "https://github.com/luscabap/pipoca-agil-apresentacao"
+    },
+    {
+        "id": 3,
         "title": "E-Commerce TCC",
         "description": "O projeto Ecommerce TCC foi desenvolvido utilizando as tecnologias React, TypeScript e estilização através de módulos SASS. Seu principal propósito foi consolidar meus conhecimentos para apresentação aos professores da faculdade. Além do design, um aspecto valioso do site é a componentização dos elementos gráficos, a modularização dos estilos, a tipagem de dados e a organização e legibilidade do código.",
         "img": "tcc.png",
@@ -15,7 +46,7 @@ export const dataProjects = [
         "repo": "https://github.com/luscabap/tcc"
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "Sorteador Amigo Secreto",
         "description": "O projeto foi desenvolvido utilizando Jest e Testing Library para aperfeiçoar a prática de testes unitários na aplicação, seguindo a metodologia de Desenvolvimento Orientado por Testes (TDD). RecoilJS foi utilizado para criar átomos de informação e hooks personalizados, fornecendo um contexto claro e compreensível para toda a aplicação. React, TypeScript, SASS para criação e estilização da página. Os principais testes da aplicação incluem: Teste do Formulário: verifica se o input está vazio, impede a adição de novos participantes, identifica nomes duplicados e mostra mensagens de erro ao adicionar um novo participante. Teste da Lista de Participantes: cobre dois cenários - quando a lista está vazia, deve ser exibida sem elementos, e quando está preenchida corretamente, mostra todos os participantes. Os demais testes estão descritos no repositório.",
         "img": "sorteador.png",
@@ -32,42 +63,24 @@ export const dataProjects = [
 
     },
     {
-        "id": 3,
-        "title": "Hello World",
-        "description": "O projeto Hello Word foi criado empregando as tecnologias React e estilização por meio do CSS. Seu propósito central consistiu em aprofundar minha compreensão da biblioteca, especialmente no que se refere à implementação de rotas com o React-Router-Dom. O site apresenta 3 opções de rotas no Header: O 'Início' contém artigos que abordam tecnologias relacionadas ao campo do desenvolvimento. Quando um desses artigos é clicado, o usuário é redirecionado para páginas cujo URL é modificado para incluir o número de identificação único de cada artigo.O 'Sobre Mim', onde descrevo um pouco da minha pessoa, da minha trajetória e curiosidades sobre mim; E o 'Teste', onde é somente uma tela mostrando o que aconteceria se o usuário digitasse no URL uma rota que não existe.",
-        "img": "hello-world.png",
-        "techs": 
-            [
-                "React",
-                "CSS"
-            ],
-        "deploy": "https://lusca-projeto-hello-word.vercel.app/",
-        "repo": "https://github.com/luscabap/lusca-projeto_hello-word"
-    },
-    {
-        "id": 4,
-        "title": "Space",
-        "description": "O Projeto Alura Space foi elaborado utilizando as tecnologias React e SASS, com o objetivo principal de aprimorar minha compreensão da criação de componentes e da utilização de estilos externos. Em essência, o site apresenta cartões que exibem imagens de galáxias, estrelas, luas e nebulosas. É possível realizar filtragens com base em opções específicas e restaurar a visualização de todas as imagens. Todas as informações são dinâmicas, uma vez que os títulos, créditos, URLs das imagens, IDs e tags para filtragem são fornecidos por meio de um arquivo JSON.",
-        "img": "space.png",
-        "techs": 
-            [
-                "React",
-                "SASS"
-            ],
-        "deploy": "https://lusca-projeto-space.vercel.app/",
-        "repo": "https://github.com/luscabap/lusca-projeto_space"
-    },
-    {
         "id": 5,
-        "title": "Newsletter",
-        "description": "O projeto do Newsletter foi desenvolvido usando HTML e Tailwind. Possui a principal funcionalde de estudar e testar a tecnologia Tailwind. A pagina possui responsividade para 3 tipos de telas diferentes: Desktop, Laptop e Mobile. Possui também animações no botão 'Inscreva-se' e no sino, que faz um shake e sinaliza que está emitindo som.",
-        "img": "newsletter.png",
-        "techs":
-        [
-            "HTML",
-            "Tailwind"
-        ],
-        "deploy": "https://github.com/luscabap",
-        "repo": "https://github.com/luscabap/lusca-projeto-pagenw"
+        "title": "Ecommerce Doces Re e Luk",
+        "description": "O site está sendo desenvolvido a partir de um insight meu, com o objetivo de ajudar na divulgação do trabalho da minha mãe na venda de doces, ao mesmo tempo em que treino minhas habilidades com Next.js, TypeScript, Tailwind, Storybook e Jest no Front-End, e Node.js, Express e MongoDB no Back-End. Estou responsável por todas as etapas do desenvolvimento do site, incluindo layout, design, documentação e API. O site terá responsividade, testes unitários dos componentes, histórias no Storybook e validação do usuário para realizar operações CRUD dos doces. Vale destacar que o site ainda está em desenvolvimento e é o meu principal projeto atualmente.",
+        "img": "construcao.png",
+        "techs": 
+            [
+                "Next",
+                "TypeScript",
+                "Tailwind",
+                "Jest",
+                "TestingLibrary",
+                "Storybook",
+                "Node",
+                "Express",
+                "Mongodb"
+            ],
+        "deploy": "https://lusca-amigo-secreto.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-jest"
     }
+
 ]

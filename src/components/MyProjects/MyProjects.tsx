@@ -8,7 +8,7 @@ export default function MyProjects(){
             <h2 className='containerProject__title'>&lt;Meus Projetos /&gt;</h2>
             {
                 dataProjects.map(item => 
-                    <Project 
+                    <Project
                         key={item.id} 
                         title={item.title} 
                         description={item.description} 

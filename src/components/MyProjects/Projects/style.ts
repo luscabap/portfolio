@@ -114,4 +114,6 @@ export const TechsContainer = styled.div`
     align-items: center;
     gap: 1.7rem;
     margin: 1rem 0 0 0;
+    flex-wrap: wrap;
+    max-width: 100%;
 `
