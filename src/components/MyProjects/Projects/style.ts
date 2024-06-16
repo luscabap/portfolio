@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+type ImgContainerProps = {
+    concluido: boolean
+}
+
 export const ProjectContainer = styled.div`
     display: grid;
     grid-template-areas: "infos img";
@@ -43,7 +47,7 @@ export const InfosContainer = styled.div`
     }
 `
 
-export const ImgContainer = styled.div`
+export const ImgContainer = styled.div<ImgContainerProps>`
     border-radius: 2rem;
     position: relative;
 
@@ -57,6 +61,7 @@ export const ImgContainer = styled.div`
         max-width: 100%;
         max-height: 100%;
         border-radius: 2rem;
+        opacity: ${props => props.concluido ? 1 : 0.5};
     }
 
     .anchors{
@@ -64,7 +69,7 @@ export const ImgContainer = styled.div`
         align-items: center;
         justify-content: space-evenly;
 
-        & > a{
+        & > a {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -75,12 +80,17 @@ export const ImgContainer = styled.div`
             padding: 0.5rem;
             border-radius: 1rem;
             transition: 0.3s;
+            cursor: ${props => props.concluido ? 'pointer' : 'not-allowed'};
 
             &:hover{
-                box-shadow: 1px 1px 5px 5px ${props => props.theme.colors.primary};
+                box-shadow: 1px 1px 5px 5px ${props => props.concluido ? props.theme.colors.primary : "red"};
                 padding: 0.5rem;
                 border-radius: 1rem;
                 transition: 0.3s;
+            }
+
+            &:first-child{
+                pointer-events: ${props => props.concluido ? 'all' : 'none'};
             }
             
             h5{
@@ -92,12 +102,6 @@ export const ImgContainer = styled.div`
 
             .anchor__icon{
                 color: ${props => props.theme.colors.primary};
-                
-
-                &:hover{
-                    cursor: pointer;
-
-                }
             }
         }
     }

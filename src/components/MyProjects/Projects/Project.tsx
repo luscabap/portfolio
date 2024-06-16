@@ -9,10 +9,11 @@ interface IProjectProps {
     id: number,
     techs: string[],
     deploy: string,
-    repo: string
+    repo: string,
+    concluido?: boolean;
 }
 
-export default function Project({ title, description, img, techs, id, deploy, repo }: IProjectProps) {
+export default function Project({ title, description, img, techs, id, deploy, repo, concluido = true }: IProjectProps) {
 
     return (
         <Styles.ProjectContainer>
@@ -34,7 +35,7 @@ export default function Project({ title, description, img, techs, id, deploy, re
                     </Styles.TechsContainer>
                 </div>
             </Styles.InfosContainer>
-            <Styles.ImgContainer>
+            <Styles.ImgContainer concluido={concluido}>
                 <img src={img} alt={title} />
 
                 <div className='anchors'>

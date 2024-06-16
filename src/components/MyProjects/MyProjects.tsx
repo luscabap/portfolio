@@ -15,6 +15,7 @@ export default function MyProjects(){
                         img={item.img} techs={item.techs} 
                         deploy={item.deploy} 
                         repo={item.repo} id={item.id}
+                        concluido={item?.concluido}
                     />)
             }
         </Styles.ContainerProject>

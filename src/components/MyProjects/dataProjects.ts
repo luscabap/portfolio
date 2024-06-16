@@ -80,7 +80,7 @@ export const dataProjects = [
                 "Mongodb"
             ],
         "deploy": "#",
-        "repo": "https://github.com/luscabap/ecommerce-luscabap"
+        "repo": "https://github.com/luscabap/ecommerce-luscabap",
+        "concluido": false
     }
-
 ]
