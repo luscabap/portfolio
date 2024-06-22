@@ -15,23 +15,32 @@ import {
     SiExpress,
     SiMongodb,
     SiStorybook,
+    SiRedux,
+    SiStyledcomponents
 } from 'react-icons/si';
 
+const iconProps = {
+    size: 35
+}
+
 export const techIcons: Record<string, React.ReactNode> = {
-    React: <SiReact size={35}/>,
-    TypeScript: <SiTypescript size={35}/>,
-    Javascript: <SiJavascript size={35}/>,
-    SASS: <SiSass size={35}/>,
-    CSS: <SiCss3 size={35}/>,
-    HTML: <SiHtml5 size={35}/>,
-    Tailwind: <SiTailwindcss size={35}/>,
-    Vite: <SiVite size={35}/>,
-    Jest: <SiJest size={35} />,
-    TestingLibrary: <SiTestinglibrary size={35}/>,
-    GIT: <SiGit size={35} />,
-    Next: <SiNextdotjs size={35} />,
-    Node: <SiNodedotjs size={35} />,
-    Express: <SiExpress size={35} />,
-    Mongodb: <SiMongodb size={35} />,
-    Storybook: <SiStorybook size={35} />,
+    React: <SiReact {...iconProps}/>,
+    TypeScript: <SiTypescript {...iconProps}/>,
+    Javascript: <SiJavascript {...iconProps}/>,
+    SASS: <SiSass {...iconProps}/>,
+    CSS: <SiCss3 {...iconProps}/>,
+    HTML: <SiHtml5 {...iconProps}/>,
+    Tailwind: <SiTailwindcss {...iconProps}/>,
+    Vite: <SiVite {...iconProps}/>,
+    Jest: <SiJest {...iconProps} />,
+    TestingLibrary: <SiTestinglibrary {...iconProps}/>,
+    GIT: <SiGit {...iconProps} />,
+    Next: <SiNextdotjs {...iconProps} />,
+    Node: <SiNodedotjs {...iconProps} />,
+    Express: <SiExpress {...iconProps} />,
+    Mongodb: <SiMongodb {...iconProps} />,
+    Storybook: <SiStorybook {...iconProps} />,
+    Redux: <SiRedux {...iconProps}/>,
+    StyledComponents: <SiStyledcomponents {...iconProps}/>
+
 }
