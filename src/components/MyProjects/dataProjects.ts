@@ -12,7 +12,8 @@ export const dataProjects = [
                 "GIT"
             ],
         "deploy": "https://lusca-code-connect.vercel.app/",
-        "repo": "https://github.com/luscabap/lusca-code-connect"
+        "repo": "https://github.com/luscabap/lusca-code-connect",
+        "concluido": true
     },
     {
         "id": 2,
@@ -28,7 +29,8 @@ export const dataProjects = [
                 "GIT"
             ],
         "deploy": "https://pipoca-agil-apresentacao.vercel.app/",
-        "repo": "https://github.com/luscabap/pipoca-agil-apresentacao"
+        "repo": "https://github.com/luscabap/pipoca-agil-apresentacao",
+        "concluido": true
     },
     {
         "id": 3,
@@ -43,7 +45,8 @@ export const dataProjects = [
                 "Vite"
             ],
         "deploy": "https://tcc-ij3n.vercel.app/",
-        "repo": "https://github.com/luscabap/tcc"
+        "repo": "https://github.com/luscabap/tcc",
+        "concluido": true
     },
     {
         "id": 4,
@@ -59,11 +62,29 @@ export const dataProjects = [
                 "TestingLibrary"
             ],
         "deploy": "https://lusca-amigo-secreto.vercel.app/",
-        "repo": "https://github.com/luscabap/lusca-jest"
-
+        "repo": "https://github.com/luscabap/lusca-jest",
+        "concluido": true
     },
     {
         "id": 5,
+        "title": "Ecommerce Hamburgueria",
+        "description": "O projeto foi desenvolvido a fim de um desafio para entrevista de emprego. A página consiste em uma página de hamburgueria onde tem a opção de você comprar hamburguers, onde ao adicionar ao carrinho o item, ele será renderizado na seção de Carrinho, carregando a quantidade de itens e o valor total do carrinho.",
+        "img": "projeto-hamburgueria.png",
+        "techs": 
+            [
+                "React",
+                "TypeScript",
+                "StyledComponents",
+                "Redux",
+                "GIT",
+                "Vite",
+            ],
+        "deploy": "https://hamburgueria-topaz-seven.vercel.app/",
+        "repo": "https://github.com/luscabap/ecommerce-luscabap",
+        "concluido": true
+    },
+    {
+        "id": 6,
         "title": "Ecommerce Doces Re e Luk",
         "description": "O site está sendo desenvolvido a partir de um insight meu, com o objetivo de ajudar na divulgação do trabalho da minha mãe na venda de doces, ao mesmo tempo em que treino minhas habilidades com Next.js, TypeScript, Tailwind, Storybook e Jest no Front-End, e Node.js, Express e MongoDB no Back-End. Estou responsável por todas as etapas do desenvolvimento do site, incluindo layout, design, documentação e API. O site terá responsividade, testes unitários dos componentes, histórias no Storybook e validação do usuário para realizar operações CRUD dos doces. Vale destacar que o site ainda está em desenvolvimento e é o meu principal projeto atualmente.",
         "img": "construcao.png",
