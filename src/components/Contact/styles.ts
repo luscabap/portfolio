@@ -43,6 +43,7 @@ export const ContainerContactIcons = styled.div`
         text-decoration: none;
         gap: 0.7rem;
         cursor: pointer;
+        min-width: 30%;
 
         h4 {
             color: ${props => props.theme.colors.secondary};

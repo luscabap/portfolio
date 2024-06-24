@@ -81,9 +81,10 @@ export const ImgContainer = styled.div<ImgContainerProps>`
             border-radius: 1rem;
             transition: 0.3s;
             cursor: ${props => props.concluido ? 'pointer' : 'not-allowed'};
+            min-width: 130px;
 
             &:hover{
-                box-shadow: 1px 1px 5px 5px ${props => props.concluido ? props.theme.colors.primary : "red"};
+                box-shadow: 2px 2px 8px 1px ${props => props.concluido ? props.theme.colors.primary : "red"};
                 padding: 0.5rem;
                 border-radius: 1rem;
                 transition: 0.3s;

@@ -12,7 +12,11 @@ export const ContainerFooter = styled.footer`
         color: ${props => props.theme.colors.inverse};
 
         abbr{
-            text-decoration: none;
+            text-decoration: underline;
+
+            &:hover{
+                cursor: crosshair;
+            }
         }
     }
 

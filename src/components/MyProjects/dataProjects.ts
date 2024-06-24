@@ -67,7 +67,7 @@ export const dataProjects = [
     },
     {
         "id": 5,
-        "title": "Ecommerce Hamburgueria",
+        "title": "E-commerce Hamburgueria",
         "description": "O projeto foi desenvolvido a fim de um desafio para entrevista de emprego. A página consiste em uma página de hamburgueria onde tem a opção de você comprar hamburguers, onde ao adicionar ao carrinho o item, ele será renderizado na seção de Carrinho, carregando a quantidade de itens e o valor total do carrinho.",
         "img": "projeto-hamburgueria.png",
         "techs": 
