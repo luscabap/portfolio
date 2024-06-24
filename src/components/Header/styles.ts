@@ -27,6 +27,10 @@ export const Container = styled.header`
     text-decoration: none;
   }
 
+  .containerTitle{
+    width: 227px;
+  }
+
   h1 {
     color: ${(props) => props.theme.colors.primary};
   }
@@ -123,4 +127,5 @@ export const Container = styled.header`
 
 export const ContainerIcon = styled.div`
   cursor: pointer;
+  width: 227px;
 `;
