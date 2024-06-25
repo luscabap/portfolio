@@ -39,6 +39,9 @@ export const Container = styled.header`
     list-style-type: none;
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 35rem;
   }
 
   .lista__item {
@@ -128,4 +131,7 @@ export const Container = styled.header`
 export const ContainerIcon = styled.div`
   cursor: pointer;
   width: 227px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 `;

@@ -2,16 +2,19 @@ import * as Styles from './styles';
 import { FaDev } from "react-icons/fa";
 import { GithubLogo, DownloadSimple } from "@phosphor-icons/react";
 import curriculo from '../../../public/download/curriculo-lucasbaptista-3.pdf'
+import { useTranslation } from 'react-i18next';
 
 export default function Home(){
+    const { t } = useTranslation();
+
     return (
         <Styles.Container id="home">
             <h1 className='home__title'>
                 <FaDev size={50} className='icone_dev'/>
-                Olá, o meu nome é 
+                {t("apresentation")} 
                     <strong>Lucas Baptista</strong>
             </h1>
-            <h2 className='home__subtitle'>Desenvolvedor Front-End</h2>
+            <h2 className='home__subtitle'>{t("function")}</h2>
             <Styles.ContainerBotoes>
                 <a href='https://github.com/luscabap' target='_blank' className='container__github'>
                     <button className='container__github__btn'>
