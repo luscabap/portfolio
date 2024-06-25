@@ -9,6 +9,12 @@
     "function": "Desenvolvedor Front-End",
     "aboutTitle": "Sobre mim",
     "aboutText1": "Tenho 19 anos de idade e estou cursando o 5° e último semestre de Análise e Desenvolvimento de Sistema na faculdade UNIBR no período noturno e no meu tempo livre estudo as tecnologias voltadas à área de front-end.",
-    "aboutText2": "Acredito que o cenário tecnológico mundial está em permanente evolução. Por esse motivo, empenho 110% do meu tempo e energia, uma vez que meu objetivo de vida é seguir minha paixão: a PROGRAMAÇÃO!"
+    "aboutText2": "Acredito que o cenário tecnológico mundial está em permanente evolução. Por esse motivo, empenho 110% do meu tempo e energia, uma vez que meu objetivo de vida é seguir minha paixão: a PROGRAMAÇÃO!",
+    "knowledgeTitle": "Conhecimentos",
+    "myProjectsTitle": "Meus Projetos",
+    "projectDesc1": "O projeto foi desenvolvido para aprimorar minhas habilidades com Next.js. Basicamente, simulei uma API com Json-Server e, ao consumi-la, renderizei cards sobre posts das tecnologias. Ao clicar em 'Ver Detalhes', o usuário é direcionado para uma página específica para cada post.",
+    "contactTitle": "Contato",
+    "footerDeveloped": "Site desenvolvido por",
+    "footerRights": "Todos os direitos reservados"
   }
 }

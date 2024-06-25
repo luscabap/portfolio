@@ -1,12 +1,15 @@
+import { useTranslation } from 'react-i18next';
 import * as Styles from './styles';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 
 export default function Conctact() {
+    const { t } = useTranslation();
+
     return (
         <Styles.ContainerContact id='contact'>
-            <h2 className='containerContact__title'>&lt;Contato /&gt;</h2>
+            <h2 className='containerContact__title'>&lt;{t("contactTitle")} /&gt;</h2>
             <Styles.ContainerContactIcons>
                 <a className='containerContact_Icon' href='https://github.com/luscabap' target='_blank'>
                     <FaGithub size={70} color={"#94c6d1"} />

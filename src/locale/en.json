@@ -9,6 +9,11 @@
     "function": "Front-End Developer",
     "aboutTitle": "About me",
     "aboutText1": "I'm 19 years old and I'm studying the 5th and final semester of System Analysis and Development at UNIBR college at night and in my free time I study technologies focused on the front-end area.",
-    "aboutText2": "I believe that the global technological scenario is constantly evolving. For this reason, I commit 110% of my time and energy, since my life goal is to follow my passion: PROGRAMMING!"
+    "aboutText2": "I believe that the global technological scenario is constantly evolving. For this reason, I commit 110% of my time and energy, since my life goal is to follow my passion: PROGRAMMING!",
+    "knowledgeTitle": "Knowdledges",
+    "MyProjectsTitle": "My Projects",
+    "contactTitle": "Contact",
+    "footerDeveloped": "Website developed by",
+    "footerRights": "All rights reserved"
   }
 }
