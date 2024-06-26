@@ -5,15 +5,17 @@ import { Rocket, Code } from '@phosphor-icons/react';
 interface IProjectProps {
     title: string,
     description: string,
+    subtitulo: string,
     img: string,
     id: number,
     techs: string[],
     deploy: string,
     repo: string,
-    concluido?: boolean;
+    repoName: string,
+    concluido?: boolean,
 }
 
-export default function Project({ title, description, img, techs, id, deploy, repo, concluido = true }: IProjectProps) {
+export default function Project({ title, description, img, techs, id, deploy, repo, concluido = true, repoName, subtitulo }: IProjectProps) {
 
     return (
         <Styles.ProjectContainer>
@@ -21,7 +23,7 @@ export default function Project({ title, description, img, techs, id, deploy, re
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <div className='techs_project'>
-                    <h4>Tecnologias usadas</h4>
+                    <h4>{subtitulo}</h4>
                     <Styles.TechsContainer>
                         {
                             techs.map(item => (
@@ -46,7 +48,7 @@ export default function Project({ title, description, img, techs, id, deploy, re
 
                     <a href={repo} target='_blank'>
                         <Code size={32} className='anchor__icon' />
-                        <h5>Repositório</h5>
+                        <h5>{repoName}</h5>
                     </a>
                 </div>
             </Styles.ImgContainer>

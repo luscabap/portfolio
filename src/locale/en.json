@@ -5,14 +5,42 @@
     "link3": "KNOWLEDGE",
     "link4": "PROJECTS",
     "link5": "CONTACTS",
+
     "apresentation": "Hello, my name is",
     "function": "Front-End Developer",
-    "aboutTitle": "About me",
+
+    "aboutTitle": "About Me",
     "aboutText1": "I'm 19 years old and I'm studying the 5th and final semester of System Analysis and Development at UNIBR college at night and in my free time I study technologies focused on the front-end area.",
     "aboutText2": "I believe that the global technological scenario is constantly evolving. For this reason, I commit 110% of my time and energy, since my life goal is to follow my passion: PROGRAMMING!",
+
     "knowledgeTitle": "Knowdledges",
-    "MyProjectsTitle": "My Projects",
+
+    "projectsTitle": "My Projects",
+
+
+    "projectSubtitle": "Technologies used",
+    "projectRepoName": "Repository",
+
+    "project1Title": "Code Connect",
+    "project1Desc": "The project was developed to enhance my skills with Next.js. Basically, I mocked an API with Json-Server and, when consumed, cards were rendered above for each technologies post. When clicking on 'See Details', the user will be redirected to a specific page for each post",
+
+    "project2Title": "Squad Presentation - Pipoca Ágil",
+    "project2Desc": "The presentation landing page for Squad Roxo Pastel, from Pipoca Ágil, is a voluntary project that aims to introduce all members and inform about the team's projects. The project was developed by me and two other developers, using React, TypeScript, SASS and the code was versioned using git. In the future, responsiveness and tests will be added.",
+
+    "project3Title": "E-Commerce TCC",
+    "project3Desc": "The Ecommerce TCC project was developed using React, TypeScript and styling technologies through SASS modules. Its main purpose was to consolidate my knowledge for presentation to college professors. In addition to design, a valuable aspect of the website is the componentization of graphic elements, the modularization of styles, data typing and the organization and readability of the code.",
+
+    "project4Title": "Secret Friend Raffle",
+    "project4Desc": "The project was developed using Jest and Testing Library to improve the practice of unit testing in the application, following the Test Driven Development (TDD) methodology. RecoilJS was used to create information atoms and custom hooks, providing a clear and understandable context for the entire application. React, TypeScript, SASS for page creation and styling. The application's main tests include: Form Test: checks if the input is empty, prevents the addition of new participants, identifies duplicate names and shows error messages when adding a new participant. Participant List Test: covers two scenarios - when the list is empty, it should be displayed without elements, and when it is filled correctly, it shows all participants. The other tests are described in the repository.",
+
+    "project5Title": "E-commerce Hamburgueria",
+    "project5Desc": "The project was developed as a challenge for a job interview. The page consists of a burger page where you have the option to buy burgers, where when you add the item to the cart, it will be rendered in the Cart section, loading the number of items and the total value of the cart.",
+
+    "project6Title": "Ecommerce Doces Re e Luk",
+    "project6Desc": "The site is being developed based on my insight, with the aim of helping to promote my mother's work in selling sweets, while at the same time training my skills with Next.js, TypeScript, Tailwind, Storybook and Jest in Front-End, and Node.js, Express and MongoDB in the Back-End. I am responsible for all stages of website development, including layout, design, documentation and API. The website will have responsiveness, component unit tests, stories in the Storybook and user validation to perform CRUD operations on the sweets. It is worth noting that the website is still under development and is currently my main project.",
+
     "contactTitle": "Contact",
+
     "footerDeveloped": "Website developed by",
     "footerRights": "All rights reserved"
   }
