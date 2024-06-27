@@ -16,7 +16,9 @@ import {
     SiMongodb,
     SiStorybook,
     SiRedux,
-    SiStyledcomponents
+    SiStyledcomponents,
+    SiPostgresql,
+    SiPrisma
 } from 'react-icons/si';
 
 const iconProps = {
@@ -41,6 +43,7 @@ export const techIcons: Record<string, React.ReactNode> = {
     Mongodb: <SiMongodb {...iconProps} />,
     Storybook: <SiStorybook {...iconProps} />,
     Redux: <SiRedux {...iconProps}/>,
-    StyledComponents: <SiStyledcomponents {...iconProps}/>
-
+    StyledComponents: <SiStyledcomponents {...iconProps}/>,
+    PostgreSQL: <SiPostgresql {...iconProps}/>,
+    Prisma: <SiPrisma {...iconProps}/>
 }

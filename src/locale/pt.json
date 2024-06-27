@@ -22,7 +22,7 @@
     "projectRepoName": "Repositório",
 
     "project1Title": "Code Connect",
-    "project1Desc": "O projeto foi desenvolvido para aprimorar minhas habilidades com Next.js. Basicamente, simulei uma API com Json-Server e, ao consumi-la, renderizei cards sobre posts das tecnologias. Ao clicar em 'Ver Detalhes', o usuário é direcionado para uma página específica para cada post.",
+    "project1Desc": "O projeto foi desenvolvido para aprimorar minhas habilidades com Next.js. Utilizei o Next.js, também como back-end, onde utilizei PostgreSQL para armazenar os dados e Prisma para consumir as informações. Assim que o site é aberto, uma requisição é feita para o banco de dados e para cada item é renderizado um Card apresentando um 'artigo' sobre a tecnologia específica. Ao clicar em 'Ver Detalhes', o usuário é direcionado para uma página específica para cada post.",
 
     "project2Title": "Apresentação Squad - Pipoca Ágil",
     "project2Desc": "A landing page de apresentação do Squad Roxo Pastel, do Pipoca Ágil, é um projeto voluntário que visa apresentar todos os membros e informar sobre os projetos do time. O projeto foi desenvolvido por mim e mais duas desenvolvedoras, utilizando React, TypeScript, SASS e o código foi versionado utilizando git. Futuramente, serão adicionadas responsividade e testes.",

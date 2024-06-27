@@ -6,7 +6,7 @@ export default function MyProjects() {
   const { t } = useTranslation();
 
   const techs = {
-    techs1: ["Next", "TypeScript", "CSS", "GIT"],
+    techs1: ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
     techs2: ["React", "TypeScript", "SASS", "Vite", "GIT"],
     techs3: ["React", "TypeScript", "SASS", "Vite"],
     techs4: ["React", "TypeScript", "SASS", "Jest", "TestingLibrary"],
