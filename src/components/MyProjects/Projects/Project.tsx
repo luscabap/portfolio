@@ -13,12 +13,13 @@ interface IProjectProps {
     repo: string,
     repoName: string,
     concluido?: boolean,
+    primario?: boolean
 }
 
-export default function Project({ title, description, img, techs, id, deploy, repo, concluido = true, repoName, subtitulo }: IProjectProps) {
+export default function Project({ title, description, img, techs, id, deploy, repo, concluido = true, repoName, subtitulo, primario = true }: IProjectProps) {
 
     return (
-        <Styles.ProjectContainer>
+        <Styles.ProjectContainer primario={primario}>
             <Styles.InfosContainer>
                 <h3>{title}</h3>
                 <p>{description}</p>

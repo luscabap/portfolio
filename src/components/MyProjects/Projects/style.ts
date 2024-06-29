@@ -4,10 +4,13 @@ type ImgContainerProps = {
     concluido: boolean
 }
 
-export const ProjectContainer = styled.div`
-    display: grid;
-    grid-template-areas: "infos img";
-    grid-template-columns: 1fr 1fr;
+type ProjectContainerPorps = {
+    primario: boolean
+}
+
+export const ProjectContainer = styled.div<ProjectContainerPorps>`
+    display: flex;
+    flex-direction: ${props => props.primario ? "row" : "row-reverse"};
     align-items: start;
     justify-content: center;
     gap: 1.4rem;
@@ -26,7 +29,7 @@ export const ProjectContainer = styled.div`
 `
 
 export const InfosContainer = styled.div`
-    
+    flex: 1;
     h3{
         font-size: 1.7rem;
         color: ${props => props.theme.colors.secondary};
@@ -48,6 +51,7 @@ export const InfosContainer = styled.div`
 `
 
 export const ImgContainer = styled.div<ImgContainerProps>`
+    flex: 1;
     border-radius: 2rem;
     position: relative;
 

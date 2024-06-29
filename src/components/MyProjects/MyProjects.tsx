@@ -68,6 +68,7 @@ export default function MyProjects() {
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
+            primario={false}
         />
 
         <Project
@@ -96,6 +97,7 @@ export default function MyProjects() {
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
+            primario={false}
         />
 
         <Project
@@ -124,6 +126,7 @@ export default function MyProjects() {
             concluido={false}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
+            primario={false}
         />
     </>
     </Styles.ContainerProject>
