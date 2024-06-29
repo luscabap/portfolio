@@ -13,8 +13,8 @@ export default function AboutMe() {
                 <p className='infos__text'>{t("aboutText1")}</p>
                 <p className='infos__text'>{t("aboutText2")}</p>
             </div>
-            <div className='photo'>
-                <img src={FotoLucas} alt="Foto do Lucas Baptista" />
+            <div className="photo">
+                <img src={FotoLucas} alt="Foto do Lucas Baptista" className='photoLucas'/>
             </div>
             
         </Styles.Container >
