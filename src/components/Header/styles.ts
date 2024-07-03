@@ -71,7 +71,16 @@ export const Container = styled.header`
         border-radius: 1rem;
     } */
 
-    @media screen and (max-width: 650px) {
+  @media screen and (min-width: 300px) and (max-width: 370px){
+    .containerTitle{
+
+      .title{
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px) {
     position: fixed;
     z-index: 1000;
     width: 100%;

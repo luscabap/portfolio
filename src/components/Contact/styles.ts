@@ -23,9 +23,14 @@ export const ContainerContactIcons = styled.div`
   justify-content: center;
   justify-content: space-evenly;
   margin: 5rem 0 0 0;
+  flex-wrap: wrap;
 
   .containerLink {
     width: 30%;
+
+    @media screen and (min-width: 300px) and (max-width: 768px){
+        width: 80%;
+    }
 
     .containerClick{
       display: flex;
