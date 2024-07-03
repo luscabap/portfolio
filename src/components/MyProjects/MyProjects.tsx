@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Project from "./Projects/Project";
 import * as Styles from "./styles";
+import { v4 as uuid4 } from "uuid"
 
 export default function MyProjects() {
   const { t } = useTranslation();
@@ -43,28 +44,28 @@ export default function MyProjects() {
             } */}
     <>
         <Project
-            key={1}
+            key={uuid4()}
             title={t("project1Title")}
             description={t("project1Desc")}
             img={"code-connect.png"}
             techs={techs.techs1}
             deploy={"https://lusca-code-connect.vercel.app/"}
             repo={"https://github.com/luscabap/lusca-code-connect"}
-            id={1}
+            id={uuid4()}
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
         />
 
         <Project
-            key={2}
+            key={uuid4()}
             title={t("project2Title")}
             description={t("project2Desc")}
             img={"pipoca-agil.png"}
             techs={techs.techs2}
             deploy={"https://pipoca-agil-apresentacao.vercel.app/"}
             repo={"https://github.com/luscabap/pipoca-agil-apresentacao"}
-            id={2}
+            id={uuid4()}
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
@@ -72,28 +73,28 @@ export default function MyProjects() {
         />
 
         <Project
-            key={3}
+            key={uuid4()}
             title={t("project3Title")}
             description={t("project3Desc")}
             img={"tcc.png"}
             techs={techs.techs3}
             deploy={"https://tcc-ij3n.vercel.app/"}
             repo={"https://github.com/luscabap/tcc"}
-            id={3}
+            id={uuid4()}
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
         />
 
         <Project
-            key={4}
+            key={uuid4()}
             title={t("project4Title")}
             description={t("project4Desc")}
             img={"sorteador.png"}
             techs={techs.techs4}
             deploy={"https://lusca-amigo-secreto.vercel.app/"}
             repo={"https://github.com/luscabap/lusca-jest"}
-            id={4}
+            id={uuid4()}
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
@@ -101,28 +102,28 @@ export default function MyProjects() {
         />
 
         <Project
-            key={5}
+            key={uuid4()}
             title={t("project5Title")}
             description={t("project5Desc")}
             img={"projeto-hamburgueria.png"}
             techs={techs.techs5}
             deploy={"https://hamburgueria-topaz-seven.vercel.app/"}
             repo={"https://github.com/luscabap/ecommerce-luscabap"}
-            id={5}
+            id={uuid4()}
             concluido={true}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
         />
 
         <Project
-            key={6}
+            key={uuid4()}
             title={t("project6Title")}
             description={t("project6Desc")}
             img={"construcao.png"}
             techs={techs.techs6}
             deploy={"#"}
             repo={"https://github.com/luscabap/ecommerce-luscabap"}
-            id={6}
+            id={uuid4()}
             concluido={false}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}

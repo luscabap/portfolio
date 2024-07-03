@@ -7,17 +7,17 @@ interface IProjectProps {
     description: string,
     subtitulo: string,
     img: string,
-    id: number,
+    id: string,
     techs: string[],
     deploy: string,
     repo: string,
     repoName: string,
     concluido?: boolean,
-    primario?: boolean
+    primario?: boolean,
 }
 
-export default function Project({ title, description, img, techs, id, deploy, repo, concluido = true, repoName, subtitulo, primario = true }: IProjectProps) {
-
+export default function Project({ title, description, img, techs, deploy, repo, concluido = true, repoName, subtitulo, primario = true }: IProjectProps) {
+    
     return (
         <Styles.ProjectContainer primario={primario}>
             <Styles.InfosContainer>
@@ -27,11 +27,11 @@ export default function Project({ title, description, img, techs, id, deploy, re
                     <h4>{subtitulo}</h4>
                     <Styles.TechsContainer>
                         {
-                            techs.map(item => (
+                            techs.map((item, index) => (
                                 <TechsProject
-                                    key={id}
+                                    key={index}
                                     techs={item}
-                                    id={id}
+                                    id={index}
                                 />
                             ))
                         }

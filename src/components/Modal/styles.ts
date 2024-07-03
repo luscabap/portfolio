@@ -25,6 +25,10 @@ export const Container = styled.ul`
   padding: 24px;
   border-radius: 15px;
 
+  @media screen and (min-width: 320px) and (max-width: 1024px){
+    width: 85%;
+  }
+
   .containerBotao{
     display: flex;
     align-items: center;

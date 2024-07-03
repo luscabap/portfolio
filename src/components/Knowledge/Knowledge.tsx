@@ -11,15 +11,17 @@ export default function Knowledge() {
       <h2 className="containerKnowledge__title">
         &lt;{t("knowledgeTitle")} /&gt;
       </h2>
-      <Styles.ContainerItemKnowledge className="">
-        {dataKnowledge.map((item, i) => (
-            <ContainerKnowledge 
+      <Styles.ContainerItemKnowledge>
+        {dataKnowledge.map(item => (
+            <ContainerKnowledge
               title={item.title} 
-              key={i} 
+              key={item.id!}
               icon={item.icon} 
               conhecimentos={item.conhecimentos}
-            />
-        ))}
+              id={item.id!}
+              />
+          )
+        )}
       </Styles.ContainerItemKnowledge>
     </Styles.Container>
   );
