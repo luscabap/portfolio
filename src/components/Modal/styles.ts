@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 type ContainerProps = {
-  isOpen: boolean
+  isopen: boolean
 }
 
 export const BackgroundContainer = styled.div<ContainerProps>`
   position: absolute;
   width: 100%;
   height: 100%;
-  display: ${props => props.isOpen ? "flex" : "none"};
+  display: ${props => props.isopen ? "flex" : "none"};
   z-index: 1000;
   align-items: center;
   justify-content: center;
