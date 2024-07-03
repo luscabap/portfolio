@@ -24,7 +24,7 @@ export default function ContainerKnowledge({ title, icon, conhecimentos }: IKnow
 
   return (
     <>
-      <Modal conhecimentos={conhecimentos} isOpen={isOpen} closeModal={closeModal}/>
+      <Modal conhecimentos={conhecimentos} isopen={isOpen} closeModal={closeModal} title={title}/>
       <Styles.Container onClick={handleOpenModal} haveTextToShow={haveTextToShow}>
         <img src={icon} />
         <h1 className="knowledge__title">{title}</h1>
