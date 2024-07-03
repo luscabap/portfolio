@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 type ImgContainerProps = {
-    concluido: boolean
+    concluido: string
 }
 
 type ProjectContainerPorps = {
-    primario: boolean
+    primario: string
 }
 
 export const ProjectContainer = styled.div<ProjectContainerPorps>`
     display: flex;
-    flex-direction: ${props => props.primario ? "row" : "row-reverse"};
+    flex-direction: ${props => props.primario === "true" ? "row" : "row-reverse"};
     align-items: start;
     justify-content: center;
     gap: 1.4rem;

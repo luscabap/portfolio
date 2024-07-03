@@ -39,7 +39,7 @@ export default function ContainerKnowledge({
       />}
       <Styles.Container
         onClick={handleOpenModal}
-        haveTextToShow={haveTextToShow}
+        havetexttoshow={haveTextToShow}
       >
         <img src={icon} />
         <h1 className="knowledge__title">{title}</h1>

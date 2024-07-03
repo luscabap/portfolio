@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 type ContainerProps = {
-    haveTextToShow: number;
+    havetexttoshow: number;
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -17,7 +17,7 @@ export const Container = styled.div<ContainerProps>`
     border-radius: 1rem;
     width: 20%;
     transition: 0.5s;
-    cursor: ${props => props.haveTextToShow > 0 ? "pointer" : "none"};
+    cursor: ${props => props.havetexttoshow > 0 ? "pointer" : "none"};
 
     &:hover{
         transform: scale(0.95);

@@ -52,7 +52,7 @@ export default function MyProjects() {
             deploy={"https://lusca-code-connect.vercel.app/"}
             repo={"https://github.com/luscabap/lusca-code-connect"}
             id={uuid4()}
-            concluido={true}
+            concluido={"true"}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
         />
@@ -66,10 +66,10 @@ export default function MyProjects() {
             deploy={"https://pipoca-agil-apresentacao.vercel.app/"}
             repo={"https://github.com/luscabap/pipoca-agil-apresentacao"}
             id={uuid4()}
-            concluido={true}
+            concluido={"true"}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
-            primario={false}
+            primario={"false"}
         />
 
         <Project
@@ -81,7 +81,7 @@ export default function MyProjects() {
             deploy={"https://tcc-ij3n.vercel.app/"}
             repo={"https://github.com/luscabap/tcc"}
             id={uuid4()}
-            concluido={true}
+            concluido={"true"}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
         />
@@ -95,10 +95,10 @@ export default function MyProjects() {
             deploy={"https://lusca-amigo-secreto.vercel.app/"}
             repo={"https://github.com/luscabap/lusca-jest"}
             id={uuid4()}
-            concluido={true}
+            concluido={"true"}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
-            primario={false}
+            primario={"false"}
         />
 
         <Project
@@ -110,7 +110,7 @@ export default function MyProjects() {
             deploy={"https://hamburgueria-topaz-seven.vercel.app/"}
             repo={"https://github.com/luscabap/ecommerce-luscabap"}
             id={uuid4()}
-            concluido={true}
+            concluido={"true"}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
         />
@@ -124,10 +124,10 @@ export default function MyProjects() {
             deploy={"#"}
             repo={"https://github.com/luscabap/ecommerce-luscabap"}
             id={uuid4()}
-            concluido={false}
+            concluido={"false"}
             repoName={t("projectRepoName")}
             subtitulo={t("projectSubtitle")}
-            primario={false}
+            primario={"false"}
         />
     </>
     </Styles.ContainerProject>
