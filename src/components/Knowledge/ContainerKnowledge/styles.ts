@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+type ContainerProps = {
+    haveTextToShow: number;
+}
+
+export const Container = styled.div<ContainerProps>`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +17,7 @@ export const Container = styled.div`
     border-radius: 1rem;
     width: 20%;
     transition: 0.5s;
+    cursor: ${props => props.haveTextToShow > 0 ? "pointer" : "none"};
 
     &:hover{
         transform: scale(0.95);
