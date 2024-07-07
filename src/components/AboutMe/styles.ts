@@ -23,6 +23,7 @@ export const Container = styled.div`
 
       .infos__text {
         font-size: 1rem;
+        background-color: purple;
       }
     }
 
@@ -59,6 +60,18 @@ export const Container = styled.div`
       text-align: justify;
       color: ${(props) => props.theme.colors.inverse};
     }
+
+    .containerLista {
+        margin: 0 0 0 2rem;
+      }
+
+      .itemLista{
+        font-size: 1rem;
+        line-height: 2rem;
+        text-indent: 1.5em;
+        text-align: justify;
+        color: ${(props) => props.theme.colors.inverse};
+      }
   }
 
   .photo {  

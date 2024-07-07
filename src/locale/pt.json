@@ -10,8 +10,11 @@
     "function": "Desenvolvedor Front-End",
 
     "aboutTitle": "Sobre Mim",
-    "aboutText1": "Tenho 19 anos de idade e estou cursando o 5° e último semestre de Análise e Desenvolvimento de Sistema na faculdade UNIBR no período noturno e no meu tempo livre estudo as tecnologias voltadas à área de front-end.",
-    "aboutText2": "Acredito que o cenário tecnológico mundial está em permanente evolução. Por esse motivo, empenho 110% do meu tempo e energia, uma vez que meu objetivo de vida é seguir minha paixão: a PROGRAMAÇÃO!",
+    "aboutText1": "Chamo-me Lucas Baptista, tenho 20 anos e sou formado em Análise e Desenvolvimento de Sistemas pela UNIBR - Faculdade de São Vicente.",
+    "aboutText2": "Atualmente, estou em busca da primeira oportunidade no mercado como Desenvolvedor Front End. Carrego comigo, além das minhas hards skills, uma dedicação, foco e garra de 100%, pois ser um excelente DEV é o OBJETIVO da minha VIDA.",
+    "aboutText3": "Tenho experiência com projetos pessoais, como o e-commerce de doces que estou desenvolvendo para a minha mãe (Front: Next.js, Tailwind, Jest, Storybook, Redux - Back: Node.js, Express) e também sou Desenvolvedor Front End Voluntário em 2 projetos no Pipoca Ágil:",
+    "aboutTextProject1": "Hepatohub 🟪: Uma iniciativa dedicada à conscientização e prevenção de doenças hepáticas, fornecendo informações essenciais e recursos educacionais para promover a saúde do fígado.",
+    "aboutTextProject2": "SrDente 🦷: Um projeto focado em educar e informar famílias sobre a importância da saúde bucal, oferecendo conteúdos acessíveis e didáticos para incentivar práticas de higiene dental e cuidados preventivos.",
 
     "knowledgeTitle": "Conhecimentos",
 

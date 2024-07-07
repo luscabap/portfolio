@@ -10,8 +10,11 @@
     "function": "Front-End Developer",
 
     "aboutTitle": "About Me",
-    "aboutText1": "I'm 19 years old and I'm studying the 5th and final semester of System Analysis and Development at UNIBR college at night and in my free time I study technologies focused on the front-end area.",
-    "aboutText2": "I believe that the global technological scenario is constantly evolving. For this reason, I commit 110% of my time and energy, since my life goal is to follow my passion: PROGRAMMING!",
+    "aboutText1": "My name is Lucas Baptista, I'm 20 years old and I have a degree in Systems Analysis and Development from UNIBR - Faculdade de São Vicente.",
+    "aboutText2": "Currently, I am looking for my first opportunity in the market as a Front End Developer. I carry with me, in addition to my hard skills, 100% dedication, focus and determination, as being an excellent DEV is the GOAL of my LIFE.",
+    "aboutText3": "I have experience with personal projects, such as the sweets e-commerce that I am developing for my mother (Front: Next.js, Tailwind, Jest, Storybook, Redux - Back: Node.js, Express) and I am also a Volunteer Front End Developer in 2 projects in Pipoca Ágil:",
+    "aboutTextProject1": "Hepatohub 🟪: An initiative dedicated to raising awareness and preventing liver disease by providing essential information and educational resources to promote liver health.",
+    "aboutTextProject2": "SrDente 🦷: A project focused on educating and informing families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventative care.",
 
     "knowledgeTitle": "Knowdledges",
 
