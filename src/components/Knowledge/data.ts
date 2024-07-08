@@ -5,13 +5,13 @@ export const dataKnowledge = [
     id: uuidv4(),
     title: "Next",
     icon: "nextjs.svg",
-    conhecimentos: ["Tokens", "Prima", "PostgreSQL"],
+    conhecimentos: ["Routes","Tokens", "Prima", "PostgreSQL"],
   },
   {
     id: uuidv4(),
     title: "React",
     icon: "react.svg",
-    conhecimentos: ["Hooks", "Router", "ContextAPI", "Recoil", "Redux", "Axios", "React Query",],
+    conhecimentos: ["SPA", "Hooks", "Router", "ContextAPI", "Recoil", "Redux", "Axios", "React Query", "TDD", "Apollo Client"],
   },
   {
     id: uuidv4(),
@@ -59,7 +59,7 @@ export const dataKnowledge = [
     id: uuidv4(),
     title: "JavaScript",
     icon: "js.svg",
-    conhecimentos: ["Manipulação do DOM e LocalStorage", "Consumo e tratamento de dados de uma API", "Métodos de Array"],
+    conhecimentos: ["Manipulação do DOM e LocalStorage", "Consumo e tratamento de dados de uma API", "Métodos de Array", "Requisições"],
   },
   {
     id: uuidv4(),
@@ -71,7 +71,7 @@ export const dataKnowledge = [
     id: uuidv4(),
     title: "CSS3",
     icon: "css3.svg",
-    conhecimentos: ["Responsividade", "Mobile-First", "FlexBox", "GridBox"],
+    conhecimentos: ["Responsividade", "Mobile-First", "FlexBox", "GridBox", "Pre-processor: SASS", "Frameworks: Boostrap and Tailwind", "Styled Components"],
   },
   {
     id: uuidv4(),
