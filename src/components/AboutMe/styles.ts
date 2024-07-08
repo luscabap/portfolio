@@ -23,7 +23,6 @@ export const Container = styled.div`
 
       .infos__text {
         font-size: 1rem;
-        background-color: purple;
       }
     }
 
