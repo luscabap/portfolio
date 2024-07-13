@@ -27,8 +27,8 @@
     "project1Title": "Code Connect",
     "project1Desc": "The project was developed to improve my skills with Next.js. I used Next.js, also as a back-end, where I used PostgreSQL to store the data and Prisma to consume the information. As soon as the site is opened, a request is made to the database and for each item a Card is rendered presenting an 'article' about the specific technology. When clicking on 'View Details', the user is directed to a specific page for each post.",
 
-    "project2Title": "Squad Presentation - Pipoca Ágil",
-    "project2Desc": "The presentation landing page for Squad Roxo Pastel, from Pipoca Ágil, is a voluntary project that aims to introduce all members and inform about the team's projects. The project was developed by me and two other developers, using React, TypeScript, SASS and the code was versioned using git. In the future, responsiveness and tests will be added.",
+    "project2Title": "Mr. Tooth",
+    "project2Desc": "The Sr.Dente page is a volunteer project developed for Pipoca Ágil. The main objective of the project is to educate and inform families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventive care. The project guides the exchange of children's baby teeth, addresses oral health in adults, and reinforces the importance of brushing, flossing, and cavity prevention, always in a fun and family-oriented way.",
 
     "project3Title": "E-Commerce TCC",
     "project3Desc": "The Ecommerce TCC project was developed using React, TypeScript and styling technologies through SASS modules. Its main purpose was to consolidate my knowledge for presentation to college professors. In addition to design, a valuable aspect of the website is the componentization of graphic elements, the modularization of styles, data typing and the organization and readability of the code.",

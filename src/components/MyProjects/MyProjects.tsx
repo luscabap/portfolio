@@ -8,9 +8,9 @@ export default function MyProjects() {
 
   const techs = {
     techs1: ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
-    techs2: ["React", "TypeScript", "SASS", "Vite", "GIT"],
+    techs2: ["React", "TypeScript", "SASS", "GIT", "Storybook"],
     techs3: ["React", "TypeScript", "SASS", "Vite"],
-    techs4: ["React", "TypeScript", "SASS", "Jest", "TestingLibrary"],
+    techs4: ["React", "TypeScript", "SASS", "Vite", "GIT"],
     techs5: ["React", "TypeScript", "StyledComponents", "Redux", "GIT", "Vite"],
     techs6: [
       "Next",
@@ -61,10 +61,10 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project2Title")}
             description={t("project2Desc")}
-            img={"pipoca-agil.png"}
+            img={"sr-dente.png"}
             techs={techs.techs2}
-            deploy={"https://pipoca-agil-apresentacao.vercel.app/"}
-            repo={"https://github.com/luscabap/pipoca-agil-apresentacao"}
+            deploy={"https://sr-dente.vercel.app/"}
+            repo={"https://github.com/luscabap/sr-dente"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
@@ -90,10 +90,10 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project4Title")}
             description={t("project4Desc")}
-            img={"sorteador.png"}
+            img={"pipoca-agil.png"}
             techs={techs.techs4}
-            deploy={"https://lusca-amigo-secreto.vercel.app/"}
-            repo={"https://github.com/luscabap/lusca-jest"}
+            deploy={"https://pipoca-agil-apresentacao.vercel.app/"}
+            repo={"https://github.com/luscabap/pipoca-agil-apresentacao"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
