@@ -23,6 +23,10 @@ export const Container = styled.header`
     width: 100%;
   }
   
+  .title{
+    cursor: pointer;
+  }
+
   a {
     text-decoration: none;
   }
