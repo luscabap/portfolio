@@ -7,6 +7,8 @@ import { DefaultTheme } from "styled-components/dist/types";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 import { MenuMobile } from "../MenuMobile";
+import { AnimatePresence } from "framer-motion";
+import { IoClose } from "react-icons/io5";
 
 interface Props {
   toggleTheme(): void;
@@ -108,8 +110,10 @@ const Header: React.FC<Props> = ({
           </div>
         </ContainerIcon>
         <div className="container_menuMobile">
-          <List size={50} className="menuburguer" onClick={toggleMenu} />
-          { isOpen && <MenuMobile />}
+          { isOpen ? <IoClose size={50} className="menuburguer" onClick={toggleMenu}/> : <List size={50} className="menuburguer" onClick={toggleMenu} />}
+          <AnimatePresence>
+            { isOpen && <MenuMobile />}
+          </AnimatePresence>
         </div>
       </div>
     </Container>

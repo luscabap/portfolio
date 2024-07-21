@@ -1,11 +1,12 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const ContainerMenu = styled.aside`
+export const ContainerMenu = styled(motion.aside)`
 
   .lista__mobile {
     display: flex;
     flex-direction: column;
-    background-color: ${(props) => props.theme.colors.terciary};
+    background-color: ${(props) => props.theme.colors.primary};
     position: fixed;
     top: 5rem;
     right: 0;
@@ -15,11 +16,14 @@ export const ContainerMenu = styled.aside`
     border-radius: 0 0 1rem 1rem;
     opacity: 100%;
     transition: 0.5s all ease-in-out;
-    width: 50%;
+    width: 60%;
   }
 
   .lista__item {
-    padding: 1rem;
+    padding: 1.4rem;
     list-style-type: none;
+    color: ${props => props.theme.colors.contrast};
+    font-size: 1rem;
+    text-decoration: underline;
   }
 `;
