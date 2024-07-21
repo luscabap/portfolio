@@ -10,10 +10,6 @@ export const Container = styled.header`
   z-index: 1000;
   transition: 0.5s all ease-in-out;
 
-  .menuburguer {
-    display: none;
-  }
-
   .container__display_default {
     height: 5rem;
     display: flex;
@@ -21,10 +17,6 @@ export const Container = styled.header`
     align-items: center;
     background-color: ${(props) => props.theme.colors.terciary};
     width: 100%;
-  }
-  
-  .title{
-    cursor: pointer;
   }
 
   a {
@@ -35,8 +27,9 @@ export const Container = styled.header`
     width: 227px;
   }
 
-  h1 {
+  .title {
     color: ${(props) => props.theme.colors.primary};
+    cursor: pointer;
   }
 
   .lista__desktop {
@@ -59,6 +52,10 @@ export const Container = styled.header`
   }
 
   .lista__mobile {
+    display: none;
+  }
+  
+  .container_menuMobile{
     display: none;
   }
 
@@ -84,7 +81,7 @@ export const Container = styled.header`
     }
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 849px) {
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -98,31 +95,11 @@ export const Container = styled.header`
             display: none;
             opacity: 0%;
         }
-
-        .lista__mobile {
-            display: flex;
-            flex-direction: column;
-            background-color: ${(props) => props.theme.colors.terciary};
-            position: fixed;
-            top: 5rem;
-            right: 0;
-            border: 1px solid ${(props) => props.theme.colors.secondary};
-            box-shadow: 2px 2px 2px ${(props) => props.theme.colors.terciary};
-            border-top: 0;
-            border-radius: 0 0 1rem 1rem;
-            opacity: 100%;
-            transition: 0.5s all ease-in-out;
-        }
-
-        .lista__item {
-            padding: 1rem;
-            list-style-type: none;
-        }
-
-        .menuburguer {
-            display: block;
-        }
     } 
+
+    .container_menuMobile{
+      display: block;
+    }
   }
 
   @media screen and (max-width: 850px){
@@ -132,11 +109,18 @@ export const Container = styled.header`
     top: 0;
 
     .title{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .lista__item{
       font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (min-width: 851px) and (max-width: 1100px){
+
+    .title{
+      font-size: 1.2rem;
     }
   }
 `;

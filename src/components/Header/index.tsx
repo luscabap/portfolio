@@ -6,6 +6,7 @@ import light from "../../styles/themes/light";
 import { DefaultTheme } from "styled-components/dist/types";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
+import { MenuMobile } from "../MenuMobile";
 
 interface Props {
   toggleTheme(): void;
@@ -19,12 +20,10 @@ const Header: React.FC<Props> = ({
   themeSite,
   handleLanguage,
 }) => {
-  const [menu, setMenu] = useState("lista__desktop");
+  const [isOpen, setIsOpen] = useState(false);
 
-  function handleMenuBurguer() {
-    setMenu((prevMenu) =>
-      prevMenu === "lista__desktop" ? "lista__mobile" : "lista__desktop"
-    );
+  const toggleMenu = () => {
+    setIsOpen(prevValue => !prevValue)
   }
 
   const iconPropsLight = {
@@ -50,7 +49,7 @@ const Header: React.FC<Props> = ({
             className="containerTitle"
         ><h1 className="title">&lt;LUSCABAP /&gt;</h1>
         </Link>
-        <ul className={menu}>
+        <ul className='lista__desktop'>
           <li className="lista__item">
             <Link 
                 to="home"
@@ -108,7 +107,10 @@ const Header: React.FC<Props> = ({
             )}
           </div>
         </ContainerIcon>
-        <List size={50} className="menuburguer" onClick={handleMenuBurguer} />
+        <div className="container_menuMobile">
+          <List size={50} className="menuburguer" onClick={toggleMenu} />
+          { isOpen && <MenuMobile />}
+        </div>
       </div>
     </Container>
   );
