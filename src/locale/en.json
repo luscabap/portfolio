@@ -24,14 +24,14 @@
     "projectSubtitle": "Technologies used",
     "projectRepoName": "Repository",
 
-    "project1Title": "Code Connect",
-    "project1Desc": "The project was developed to improve my skills with Next.js. I used Next.js, also as a back-end, where I used PostgreSQL to store the data and Prisma to consume the information. As soon as the site is opened, a request is made to the database and for each item a Card is rendered presenting an 'article' about the specific technology. When clicking on 'View Details', the user is directed to a specific page for each post.",
+    "project1Title": "VN Advocacia - Freelance",
+    "project1Desc": "The project involved freelance development for VN Advocacia, a renowned law firm in Parnaíba, Piauí. The proposal was to create a new website based on their old one, with an improved design, more concise information, an intuitive and harmonious user experience, and functionalities that facilitate contact, either through WhatsApp (with modals and icons linked to the WhatsApp API to start a new conversation) or email (a form that, when submitted, automatically sends an email). Technically, the site is highly componentized to maximize code reuse and is fully documented with Storybook.",
 
     "project2Title": "Mr. Tooth",
     "project2Desc": "The Sr.Dente page is a volunteer project developed for Pipoca Ágil. The main objective of the project is to educate and inform families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventive care. The project guides the exchange of children's baby teeth, addresses oral health in adults, and reinforces the importance of brushing, flossing, and cavity prevention, always in a fun and family-oriented way.",
 
-    "project3Title": "E-Commerce TCC",
-    "project3Desc": "The Ecommerce TCC project was developed using React, TypeScript and styling technologies through SASS modules. Its main purpose was to consolidate my knowledge for presentation to college professors. In addition to design, a valuable aspect of the website is the componentization of graphic elements, the modularization of styles, data typing and the organization and readability of the code.",
+    "project3Title": "Code Connect",
+    "project3Desc": "The project was developed to improve my skills with Next.js. I used Next.js, also as a back-end, where I used PostgreSQL to store the data and Prisma to consume the information. As soon as the site is opened, a request is made to the database and for each item a Card is rendered presenting an 'article' about the specific technology. When clicking on 'View Details', the user is directed to a specific page for each post.",
 
     "project4Title": "Secret Friend Raffle",
     "project4Desc": "The project was developed using Jest and Testing Library to improve the practice of unit testing in the application, following the Test Driven Development (TDD) methodology. RecoilJS was used to create information atoms and custom hooks, providing a clear and understandable context for the entire application. React, TypeScript, SASS for page creation and styling. The application's main tests include: Form Test: checks if the input is empty, prevents the addition of new participants, identifies duplicate names and shows error messages when adding a new participant. Participant List Test: covers two scenarios - when the list is empty, it should be displayed without elements, and when it is filled correctly, it shows all participants. The other tests are described in the repository.",

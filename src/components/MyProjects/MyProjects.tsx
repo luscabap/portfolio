@@ -7,9 +7,9 @@ export default function MyProjects() {
   const { t } = useTranslation();
 
   const techs = {
-    techs1: ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
+    techs1: ["React", "TypeScript", "Tailwind", "GIT", "Storybook"],
     techs2: ["React", "TypeScript", "SASS", "GIT", "Storybook"],
-    techs3: ["React", "TypeScript", "SASS", "Vite"],
+    techs3: ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
     techs4: ["React", "TypeScript", "SASS", "Vite", "GIT"],
     techs5: ["React", "TypeScript", "StyledComponents", "Redux", "GIT", "Vite"],
     techs6: [
@@ -28,29 +28,15 @@ export default function MyProjects() {
   return (
     <Styles.ContainerProject id="project">
       <h2 className="containerProject__title">&lt; {t("projectsTitle")} /&gt;</h2>
-      {/* {
-                projects.dataProjects.map(item => 
-                    <Project
-                        key={item.id} 
-                        title={item.title} 
-                        description={item.description} 
-                        img={item.img} 
-                        techs={item.techs} 
-                        deploy={item.deploy} 
-                        repo={item.repo} 
-                        id={item.id}
-                        concluido={item?.concluido}
-                    />)
-            } */}
     <>
         <Project
             key={uuid4()}
             title={t("project1Title")}
             description={t("project1Desc")}
-            img={"code-connect.png"}
+            img={"projects-assets/vn-advocacia.png"}
             techs={techs.techs1}
-            deploy={"https://lusca-code-connect.vercel.app/"}
-            repo={"https://github.com/luscabap/lusca-code-connect"}
+            deploy={"https://vn-advocacia.vercel.app/"}
+            repo={"https://github.com/luscabap/VN-Advocacia"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
@@ -61,7 +47,7 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project2Title")}
             description={t("project2Desc")}
-            img={"sr-dente.png"}
+            img={"projects-assets/sr-dente.png"}
             techs={techs.techs2}
             deploy={"https://sr-dente.vercel.app/"}
             repo={"https://github.com/luscabap/sr-dente"}
@@ -76,10 +62,10 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project3Title")}
             description={t("project3Desc")}
-            img={"tcc.png"}
+            img={"projects-assets/code-connect.png"}
             techs={techs.techs3}
-            deploy={"https://tcc-ij3n.vercel.app/"}
-            repo={"https://github.com/luscabap/tcc"}
+            deploy={"https://lusca-code-connect.vercel.app/"}
+            repo={"https://github.com/luscabap/lusca-code-connect"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
@@ -90,7 +76,7 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project4Title")}
             description={t("project4Desc")}
-            img={"pipoca-agil.png"}
+            img={"projects-assets/pipoca-agil.png"}
             techs={techs.techs4}
             deploy={"https://pipoca-agil-apresentacao.vercel.app/"}
             repo={"https://github.com/luscabap/pipoca-agil-apresentacao"}
@@ -105,7 +91,7 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project5Title")}
             description={t("project5Desc")}
-            img={"projeto-hamburgueria.png"}
+            img={"projects-assets/projeto-hamburgueria.png"}
             techs={techs.techs5}
             deploy={"https://hamburgueria-topaz-seven.vercel.app/"}
             repo={"https://github.com/luscabap/ecommerce-luscabap"}
@@ -119,7 +105,7 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project6Title")}
             description={t("project6Desc")}
-            img={"construcao.png"}
+            img={"projects-assets/construcao.png"}
             techs={techs.techs6}
             deploy={"#"}
             repo={"https://github.com/luscabap/ecommerce-luscabap"}
