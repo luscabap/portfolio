@@ -1,8 +1,49 @@
 import { useTranslation } from "react-i18next";
 import * as Styles from "./styles";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { ButtonCopyClipboard } from "../ButtonCopyClipboard";
+import { InfoButton } from "../InfoButton";
+import { v4 as uuidv4 } from "uuid";
+
+const iconProps = {
+  size: 70,
+  color: "#94c6d1"
+}
+
+const dataContact = [
+  {
+    id: uuidv4(),
+    icon: <FaGithub {...iconProps} />,
+    title: "GitHub",
+    info: "@luscabap",
+    contentToClipboard: "https://github.com/luscabap",
+    href: "https://github.com/luscabap"
+  },
+  {
+    id: uuidv4(),
+    contentToClipboard: "lucasbaptistasilva.dev@gmail.com",
+    icon: <MdEmail {...iconProps} />,
+    title: "E-mail",
+    info: "lucasbaptistasilva.dev@gmail.com",
+    href: ""
+  },
+  {
+    id: uuidv4(),
+    contentToClipboard: "13988133135",
+    icon: <FaWhatsapp {...iconProps} />,
+    title: "WhatsApp",
+    info: "(13) 98813-3135",
+    href: "https://wa.me/5513988133135?text=Olá,+Lucas.+Gostaria+de+informações+sobre+os+seus+serviços,+por+favor."
+  },
+  {
+    id: uuidv4(),
+    contentToClipboard: "https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/",
+    icon: <FaLinkedin {...iconProps} />,
+    title: "LinkedIn",
+    info: "Lucas Baptista da Silva",
+    href: "https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/"
+  },
+]
 
 export default function Conctact() {
   const { t } = useTranslation();
@@ -11,44 +52,16 @@ export default function Conctact() {
     <Styles.ContainerContact id="contact">
       <h2 className="containerContact__title">&lt;{t("contactTitle")} /&gt;</h2>
       <Styles.ContainerContactIcons>
-        <div className="containerLink">
-          <ButtonCopyClipboard content="https://github.com/luscabap" />
-          <div className="containerClick">
-            <a
-              className="containerContact_Icon"
-              href="https://github.com/luscabap"
-              target="_blank"
-            >
-              <FaGithub size={70} color={"#94c6d1"} />
-              <h4>GitHub</h4>
-              <p>@luscabap</p>
-            </a>
-          </div>
-        </div>
-        <div className="containerLink">
-          <ButtonCopyClipboard content="lucasbaptistasilva.dev@gmail.com" />
-          <div className="containerClick">
-            <a className="containerContact_Icon">
-              <MdEmail size={70} color={"#94c6d1"} />
-              <h4>E-mail</h4>
-              <p>lucasbaptistasilva.dev@gmail.com</p>
-            </a>
-          </div>
-        </div>
-        <div className="containerLink">
-          <ButtonCopyClipboard content="https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/" />
-          <div className="containerClick">
-            <a
-              className="containerContact_Icon"
-              href="https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/"
-              target="_blank"
-            >
-              <FaLinkedin size={70} color={"#94c6d1"} />
-              <h4>LinkedIn</h4>
-              <p>Lucas Baptista da Silva</p>
-            </a>
-          </div>
-        </div>
+        { dataContact.map(item => (
+          <InfoButton 
+            contentToClipboard={item.contentToClipboard}
+            href={item.href}
+            icon={item.icon}
+            info={item.info}
+            title={item.title}
+            key={item.id}
+          />
+        )) }
       </Styles.ContainerContactIcons>
     </Styles.ContainerContact>
   );
