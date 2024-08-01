@@ -21,6 +21,8 @@ import {
     SiPrisma
 } from 'react-icons/si';
 
+import { TbBrandFramerMotion } from "react-icons/tb"
+
 const iconProps = {
     size: 35
 }
@@ -45,5 +47,6 @@ export const techIcons: Record<string, React.ReactNode> = {
     Redux: <SiRedux {...iconProps}/>,
     StyledComponents: <SiStyledcomponents {...iconProps}/>,
     PostgreSQL: <SiPostgresql {...iconProps}/>,
-    Prisma: <SiPrisma {...iconProps}/>
+    Prisma: <SiPrisma {...iconProps}/>,
+    FramerMotion: <TbBrandFramerMotion {...iconProps}/>
 }

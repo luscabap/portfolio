@@ -7,10 +7,10 @@ export default function MyProjects() {
   const { t } = useTranslation();
 
   const techs = {
-    techs1: ["React", "TypeScript", "Tailwind", "GIT", "Storybook"],
-    techs2: ["React", "TypeScript", "SASS", "GIT", "Storybook"],
-    techs3: ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
-    techs4: ["React", "TypeScript", "SASS", "Vite", "GIT"],
+    techs1: ["React", "TypeScript", "Tailwind", "FramerMotion", "GIT", "Storybook"],
+    techs2: ["Next", "React", "TypeScript", "Tailwind", "FramerMotion", "GIT", "Storybook"],
+    techs3: ["React", "TypeScript", "SASS", "GIT", "Storybook"],
+    techs4: ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
     techs5: ["React", "TypeScript", "StyledComponents", "Redux", "GIT", "Vite"],
     techs6: [
       "Next",
@@ -47,10 +47,10 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project2Title")}
             description={t("project2Desc")}
-            img={"projects-assets/sr-dente.png"}
+            img={"projects-assets/dr-guilherme_andrade.png"}
             techs={techs.techs2}
-            deploy={"https://sr-dente.vercel.app/"}
-            repo={"https://github.com/luscabap/sr-dente"}
+            deploy={"https://dr-guilherme-andrade.vercel.app/"}
+            repo={"https://github.com/luscabap/Guilherme-Andrade"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
@@ -62,10 +62,10 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project3Title")}
             description={t("project3Desc")}
-            img={"projects-assets/code-connect.png"}
+            img={"projects-assets/sr-dente.png"}
             techs={techs.techs3}
-            deploy={"https://lusca-code-connect.vercel.app/"}
-            repo={"https://github.com/luscabap/lusca-code-connect"}
+            deploy={"https://sr-dente.vercel.app/"}
+            repo={"https://github.com/luscabap/sr-dente"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
@@ -76,10 +76,10 @@ export default function MyProjects() {
             key={uuid4()}
             title={t("project4Title")}
             description={t("project4Desc")}
-            img={"projects-assets/pipoca-agil.png"}
+            img={"projects-assets/code-connect.png"}
             techs={techs.techs4}
-            deploy={"https://pipoca-agil-apresentacao.vercel.app/"}
-            repo={"https://github.com/luscabap/pipoca-agil-apresentacao"}
+            deploy={"https://lusca-code-connect.vercel.app/"}
+            repo={"https://github.com/luscabap/lusca-code-connect"}
             id={uuid4()}
             concluido={"true"}
             repoName={t("projectRepoName")}
