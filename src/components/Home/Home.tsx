@@ -1,7 +1,7 @@
 import * as Styles from './styles';
 import { FaDev } from "react-icons/fa";
 import { GithubLogo, DownloadSimple } from "@phosphor-icons/react";
-import curriculo from '../../../public/download/curriculo-lucasbaptista.pdf'
+import curriculo from '/download/curriculo-lucasbaptista.pdf'
 import { useTranslation } from 'react-i18next';
 
 export default function Home(){
@@ -31,6 +31,15 @@ export default function Home(){
                     
                 </a>   
             </Styles.ContainerBotoes>
+            <div className='home__resume'>
+                <h3 className='home__resume__subtitle'> 
+                    {t("textMain")}
+                        <span className='home__resume__subtitle__destaque'>
+                            {t("textMainContrast")}
+                        </span> 🚀
+                </h3>
+                <p className='home__resume__text'>{t("aboutFunction")}</p>
+            </div>
         </Styles.Container>
     )
 }

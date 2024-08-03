@@ -45,7 +45,7 @@ export const Container = styled.div`
     align-items: center;
     gap: 1rem;
 
-    h1 {
+    .home__title {
         font-size: 3rem;
         display: flex;
         align-items: center;
@@ -62,10 +62,36 @@ export const Container = styled.div`
         }
     }
 
-    h2{
+    .home__subtitle{
         font-size: 2rem;
         color: ${props => props.theme.colors.secondary};
         margin: 0 0 1.7rem 0;
+    }
+
+    .home__resume{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: ${props => props.theme.colors.inverse};
+        gap: 1.6rem;
+
+        &__subtitle{
+            font-size: 1.5rem;
+
+            &__destaque{
+                color: ${props => props.theme.colors.primary}
+            }
+        }
+
+        &__text{
+            text-align: center;
+            font-size: 1.1rem;
+
+            &__destaque{
+                color: ${props => props.theme.colors.secondary}
+            }
+        }
     }
 `
 
