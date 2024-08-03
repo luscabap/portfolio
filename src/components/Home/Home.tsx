@@ -15,6 +15,7 @@ export default function Home(){
                     <strong>Lucas Baptista</strong>
             </h1>
             <h2 className='home__subtitle'>{t("function")}</h2>
+
             <Styles.ContainerBotoes>
                 <a href='https://github.com/luscabap' target='_blank' className='container__github'>
                     <button className='container__github__btn'>
@@ -31,6 +32,7 @@ export default function Home(){
                     
                 </a>   
             </Styles.ContainerBotoes>
+            
             <div className='home__resume'>
                 <h3 className='home__resume__subtitle'> 
                     {t("textMain")}

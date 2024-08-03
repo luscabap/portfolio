@@ -10,13 +10,20 @@ export default function AboutMe() {
             <div className='infos'>
                 <h2 className='infos__title_aboutme'>&lt;{t("aboutTitle")} /&gt;</h2>
                 <h3 className='infos__name'>Lucas Baptista da Silva</h3>
-                <p className='infos__text'>{t("aboutText1")}</p>
+                <p className='infos__text'>
+                    {t("aboutText1")}
+                    <span className='infos__text__contrast'>{t("aboutTechs")}</span>
+                    {t("aboutText1_1")}
+                </p>
                 <p className='infos__text'>{t("aboutText2")}</p>
-                <p className='infos__text'>{t("aboutText3")}</p>
                 <ul className='containerLista'>
                     <li className='itemLista'>{t("aboutTextProject1")}</li>
                     <li className='itemLista'>{t("aboutTextProject2")}</li>
                 </ul>
+                <p className='infos__text'>
+                    {t("aboutText3")}
+                    <span className='infos__text__contrast'>{t("aboutText3_contrast")}</span>
+                </p>
             </div>
             <div className="photo">
                 <img src={FotoLucas} alt="Foto do Lucas Baptista" className='photoLucas'/>

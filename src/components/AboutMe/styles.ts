@@ -51,17 +51,21 @@ export const Container = styled.div`
       margin: 0.7rem 0 2.5rem 0rem;
     }
 
-    p {
+    .infos__text {
       font-size: 1.2rem;
       line-height: 2rem;
       margin-bottom: 2rem;
       text-indent: 1.5em;
       text-align: justify;
       color: ${(props) => props.theme.colors.inverse};
+
+      &__contrast{
+        color: ${props => props.theme.colors.primary}
+      }
     }
 
     .containerLista {
-        margin: 0 0 0 2rem;
+        margin: 0 0 2rem 2rem;
       }
 
       .itemLista{

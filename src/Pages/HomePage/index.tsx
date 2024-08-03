@@ -44,8 +44,8 @@ export default function HomePage() {
       <Styles.ContainerMain className="Container_teste">
         <Home />
         <AboutMe />
-        <Knowledge />
         <MyProjects />
+        <Knowledge />
         <Conctact />
       </Styles.ContainerMain>
       <Footer />
