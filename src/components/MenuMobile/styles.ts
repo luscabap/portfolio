@@ -6,7 +6,7 @@ export const ContainerMenu = styled(motion.aside)`
   .lista__mobile {
     display: flex;
     flex-direction: column;
-    background-color: ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.secondary};
     position: fixed;
     top: 5rem;
     right: 0;

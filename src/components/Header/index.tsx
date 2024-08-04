@@ -41,7 +41,7 @@ const Header: React.FC<Props> = ({
   const { t } = useTranslation();
 
   return (
-    <Container>
+    <Container isOpen={isOpen}>
       <div className="container__display_default">
         <Link 
             to="home"

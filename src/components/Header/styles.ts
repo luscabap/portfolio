@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+type ContainerProps = {
+  isOpen: boolean
+}
+
+export const Container = styled.header<ContainerProps>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +19,7 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: ${(props) => props.theme.colors.terciary};
+    background-color: ${(props) => props.isOpen ? props.theme.colors.secondary : props.theme.colors.terciary};
     width: 100%;
   }
 
