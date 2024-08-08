@@ -78,9 +78,12 @@ export const Container = styled.div`
   }
 
   .photo {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
       .photoLucas {
-        width: 30rem;
-        transform: scale(0.75);
+        width: 31rem;
+        transform: scale(0.85);
         border: 4px solid ${props => props.theme.colors.primary};
         border-radius: 2rem;
       }

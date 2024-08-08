@@ -1,5 +1,5 @@
 import * as Styles from './styles';
-import FotoLucas from '/lucas.png'
+import FotoLucas from '/lucas-portfolio.jpeg';
 import { useTranslation } from 'react-i18next';
 
 export default function AboutMe() {
