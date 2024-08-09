@@ -1,28 +1,17 @@
+import { ProjectProps } from '../../../types/ProjectType';
 import TechsProject from './TechsProject/TechsProject';
 import * as Styles from './style';
 import { Rocket, Code } from '@phosphor-icons/react';
 
-interface IProjectProps {
-    title: string,
-    description: string,
-    subtitulo: string,
-    img: string,
-    id: string,
-    techs: string[],
-    deploy: string,
-    repo: string,
-    repoName: string,
-    concluido: string,
-    primario?: string,
-}
-
-export default function Project({ title, description, img, techs, deploy, repo, concluido, repoName, subtitulo, primario = "true" }: IProjectProps) {
+export default function Project({ title, description, img, techs, deploy, repo, concluido, repoName, subtitulo, primario = "true" }: ProjectProps) {
     
     return (
         <Styles.ProjectContainer primario={primario}>
             <Styles.InfosContainer>
-                <h3>{title}</h3>
-                <p>{description}</p>
+                <div>
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                </div>
                 <div className='techs_project'>
                     <h4>{subtitulo}</h4>
                     <Styles.TechsContainer>

@@ -11,10 +11,11 @@ type ProjectContainerPorps = {
 export const ProjectContainer = styled.div<ProjectContainerPorps>`
     display: flex;
     flex-direction: ${props => props.primario === "true" ? "row" : "row-reverse"};
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     gap: 1.4rem;
     margin: 3rem 0 6rem 0;
+    
 
     @media screen and (max-width: 425px){
         display: flex;
@@ -30,6 +31,11 @@ export const ProjectContainer = styled.div<ProjectContainerPorps>`
 
 export const InfosContainer = styled.div`
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
     h3{
         font-size: 1.7rem;
         color: ${props => props.theme.colors.secondary};
@@ -47,6 +53,10 @@ export const InfosContainer = styled.div`
     h4{
         color: ${props => props.theme.colors.primary};
         font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 768px){
+        
     }
 `
 
