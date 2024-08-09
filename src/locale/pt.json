@@ -12,6 +12,8 @@
     "textMainContrast": "Experiências Digitais de Sucesso!",
     "aboutFunction": "Deixe-me ajudar a transformar sua visão em uma aplicação web de alta qualidade, com um design moderno, intuitivo e altamente performático. Vamos conversar sobre como posso contribuir para o sucesso do seu projeto!",
 
+
+
     "aboutTitle": "Sobre Mim",
     "aboutText1": "Profissional tecnólogo em Análise e Desenvolvimento de Sistemas, sou um desenvolvedor front-end apaixonado por criar interfaces impressionantes e funcionais. Com expertise em,",
     "aboutTechs": " Next.js, React.js, TypeScript, Node.js e Pipeline CI/CD ",
@@ -26,27 +28,71 @@
 
     "projectsTitle": "Meus Projetos",
     
-
     "projectSubtitle": "Tecnologias usadas",
     "projectRepoName": "Repositório",
 
-    "project1Title": "VN Advocacia - Freelance",
-    "project1Desc": "O projeto consistiu em um desenvolvimento freelance para a VN Advocacia, um renomado escritório de advocacia em Parnaíba, Piauí. A proposta era criar um novo site, baseado no antigo, com um design aprimorado, informações mais sucintas, intuitivo e harmonioso para o usuário, e com funcionalidades que facilitassem o contato, seja via WhatsApp (com modais e ícones vinculados à API do WhatsApp para iniciar uma nova conversa) ou e-mail (formulário que, ao ser submetido, envia automaticamente um e-mail). Tecnologicamente, o site foi altamente componentizado para maximizar o reaproveitamento de código e está totalmente documentado com Storybook.",
-
-    "project2Title": "Dr. Guilherme Andrade - Freelance",
-    "project2Desc": "A landing page é um projeto freelance desenvolvido para o Dr. Guilherme Andrade. A proposta do site é apresentar o Dr. Guilherme de forma clara e concisa, destacando suas especialidades e áreas de atuação. O design foi cuidadosamente elaborado para ser atraente e harmonioso, facilitando o contato com o advogado, seja via WhatsApp ou por e-mail. O site foi desenvolvido com uma arquitetura altamente componentizada para maximizar o reaproveitamento de código, possui temas Dark (default) e Light, e está documentado no Storybook.",
-
-    "project3Title": "Sr. Dente",
-    "project3Desc": "A página Sr.Dente é um projeto voluntário, desenvolvido para o Pipoca Ágil, o principal objetivo do projeto é educar e informar famílias sobre a importância da saúde bucal, oferecendo conteúdos acessíveis e didáticos para incentivar práticas de higiene dental e cuidados preventivos. O projeto guia a troca dos dentes de leite das crianças, aborda a saúde bucal nos adultos e reforça a importância da escovação, uso do fio dental e prevenção de cáries, sempre de maneira divertida e em Família.",
-
-    "project4Title": "Code Connect",
-    "project4Desc": "O projeto foi desenvolvido para aprimorar minhas habilidades com Next.js. Utilizei o Next.js, também como back-end, onde utilizei PostgreSQL para armazenar os dados e Prisma para consumir as informações. Assim que o site é aberto, uma requisição é feita para o banco de dados e para cada item é renderizado um Card apresentando um 'artigo' sobre a tecnologia específica. Ao clicar em 'Ver Detalhes', o usuário é direcionado para uma página específica para cada post.",
-
-    "project5Title": "E-commerce Hamburgueria",
-    "project5Desc": "O projeto foi desenvolvido a fim de um desafio para entrevista de emprego. A página consiste em uma página de hamburgueria onde tem a opção de você comprar hamburguers, onde ao adicionar ao carrinho o item, ele será renderizado na seção de Carrinho, carregando a quantidade de itens e o valor total do carrinho.",
-
-    "project6Title": "E-commerce Doces Re e Luk",
-    "project6Desc": "O site está sendo desenvolvido a partir de um insight meu, com o objetivo de ajudar na divulgação do trabalho da minha mãe na venda de doces, ao mesmo tempo em que treino minhas habilidades com Next.js, TypeScript, Tailwind, Storybook e Jest no Front-End, e Node.js, Express e MongoDB no Back-End. Estou responsável por todas as etapas do desenvolvimento do site, incluindo layout, design, documentação e API. O site terá responsividade, testes unitários dos componentes, histórias no Storybook e validação do usuário para realizar operações CRUD dos doces. Vale destacar que o site ainda está em desenvolvimento e é o meu principal projeto atualmente.",
+    "projects": [
+      {
+        "title": "VN Advocacia - Freelance",
+        "description": "O projeto consistiu em um desenvolvimento freelance para a VN Advocacia, um renomado escritório de advocacia em Parnaíba, Piauí. A proposta era criar um novo site, baseado no antigo, com um design aprimorado, informações mais sucintas, intuitivo e harmonioso para o usuário, e com funcionalidades que facilitassem o contato, seja via WhatsApp (com modais e ícones vinculados à API do WhatsApp para iniciar uma nova conversa) ou e-mail (formulário que, ao ser submetido, envia automaticamente um e-mail). Tecnologicamente, o site foi altamente componentizado para maximizar o reaproveitamento de código e está totalmente documentado com Storybook.",
+        "img":"projects-assets/vn-advocacia.png",
+        "techs": ["React", "TypeScript", "Tailwind", "FramerMotion", "GIT", "Storybook"],
+        "deploy": "https://vn-advocacia.vercel.app/",
+        "repo": "https://github.com/luscabap/VN-Advocacia",
+        "concluido": "true",
+        "primario": "true"
+      },
+      {
+        "title": "Dr. Guilherme Andrade - Freelance",
+        "description": "A landing page é um projeto freelance desenvolvido para o Dr. Guilherme Andrade. A proposta do site é apresentar o Dr. Guilherme de forma clara e concisa, destacando suas especialidades e áreas de atuação. O design foi cuidadosamente elaborado para ser atraente e harmonioso, facilitando o contato com o advogado, seja via WhatsApp ou por e-mail. O site foi desenvolvido com uma arquitetura altamente componentizada para maximizar o reaproveitamento de código, possui temas Dark (default) e Light, e está documentado no Storybook.",
+        "techs": ["Next", "React", "TypeScript", "Tailwind", "FramerMotion", "GIT", "Storybook"],
+        "img":"projects-assets/dr-guilherme_andrade.png",
+        "deploy": "https://dr-guilherme-andrade.vercel.app/",
+        "repo": "https://github.com/luscabap/Guilherme-Andrade",
+        "concluido": "true",
+        "primario": "false"
+      },
+      {
+        "title": "Sr. Dente",
+        "description": "A página Sr.Dente é um projeto voluntário, desenvolvido para o Pipoca Ágil, o principal objetivo do projeto é educar e informar famílias sobre a importância da saúde bucal, oferecendo conteúdos acessíveis e didáticos para incentivar práticas de higiene dental e cuidados preventivos. O projeto guia a troca dos dentes de leite das crianças, aborda a saúde bucal nos adultos e reforça a importância da escovação, uso do fio dental e prevenção de cáries, sempre de maneira divertida e em Família.",
+        "techs": ["React", "TypeScript", "SASS", "GIT", "Storybook"],
+        "img":"projects-assets/sr-dente.png",
+        "deploy": "https://sr-dente.vercel.app/",
+        "repo": "https://github.com/luscabap/sr-dente",
+        "concluido": "true",
+        "primario": "true"
+      },
+      {
+        "title": "Code Connect",
+        "description": "O projeto foi desenvolvido para aprimorar minhas habilidades com Next.js. Utilizei o Next.js, também como back-end, onde utilizei PostgreSQL para armazenar os dados e Prisma para consumir as informações. Assim que o site é aberto, uma requisição é feita para o banco de dados e para cada item é renderizado um Card apresentando um 'artigo' sobre a tecnologia específica. Ao clicar em 'Ver Detalhes', o usuário é direcionado para uma página específica para cada post.",
+        "techs": ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
+        "img":"projects-assets/code-connect.png",
+        "deploy": "https://lusca-code-connect.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-code-connect",
+        "concluido": "true",
+        "primario": "false"
+      },
+      {
+        "title": "E-commerce Hamburgueria",
+        "description": "O projeto foi desenvolvido a fim de um desafio para entrevista de emprego. A página consiste em uma página de hamburgueria onde tem a opção de você comprar hamburguers, onde ao adicionar ao carrinho o item, ele será renderizado na seção de Carrinho, carregando a quantidade de itens e o valor total do carrinho.",
+        "techs": ["React", "TypeScript", "StyledComponents", "Redux", "GIT", "Vite"],
+        "img":"projects-assets/projeto-hamburgueria.png",
+        "deploy": "https://hamburgueria-topaz-seven.vercel.app/",
+        "repo": "https://github.com/luscabap/ecommerce-luscabap",
+        "concluido": "true",
+        "primario": "true"
+      },
+      {
+        "title": "E-commerce Doces Re e Luk",
+        "description": "O site está sendo desenvolvido a partir de um insight meu, com o objetivo de ajudar na divulgação do trabalho da minha mãe na venda de doces, ao mesmo tempo em que treino minhas habilidades com Next.js, TypeScript, Tailwind, Storybook e Jest no Front-End, e Node.js, Express e MongoDB no Back-End. Estou responsável por todas as etapas do desenvolvimento do site, incluindo layout, design, documentação e API. O site terá responsividade, testes unitários dos componentes, histórias no Storybook e validação do usuário para realizar operações CRUD dos doces. Vale destacar que o site ainda está em desenvolvimento e é o meu principal projeto atualmente.",
+        "techs": ["Next", "TypeScript", "Tailwind", "Jest", "TestingLibrary", "Storybook", "Node", "Express", "Mongodb"],
+        "img":"projects-assets/construcao.png",
+        "deploy": "#",
+        "repo": "https://github.com/luscabap/ecommerce-luscabap",
+        "concluido": "false",
+        "primario": "false"
+      }
+    ],
 
     "contactTitle": "Contato",
 

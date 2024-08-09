@@ -12,6 +12,7 @@
     "textMainContrast": "Successful Digital Experiences!",
     "aboutFunction": "Let me help transform your vision into a high-quality web application with a modern, intuitive, and highly performant design. Let's talk about how I can contribute to the success of your project!",
 
+
     "aboutTitle": "About Me",
     "aboutText1": "Professional technologist in Systems Analysis and Development, I am a front-end developer passionate about creating impressive and functional interfaces. With expertise in,",
     "aboutTechs": " Next.js, React.js, TypeScript, Node.js and Pipeline CI/CD ",
@@ -30,23 +31,74 @@
     "projectSubtitle": "Technologies used",
     "projectRepoName": "Repository",
 
-    "project1Title": "VN Advocacia - Freelance",
-    "project1Desc": "The project involved freelance development for VN Advocacia, a renowned law firm in Parnaíba, Piauí. The proposal was to create a new website based on their old one, with an improved design, more concise information, an intuitive and harmonious user experience, and functionalities that facilitate contact, either through WhatsApp (with modals and icons linked to the WhatsApp API to start a new conversation) or email (a form that, when submitted, automatically sends an email). Technically, the site is highly componentized to maximize code reuse and is fully documented with Storybook.",
-
-    "project2Title": "Dr. Guilherme Andrade - Freelance",
-    "project2Desc": "The landing page is a freelance project developed for Dr. Guilherme Andrade. The purpose of the site is to present Dr. Guilherme clearly and concisely, highlighting his specialties and areas of expertise. The design was carefully crafted to be attractive and harmonious, making it easy to contact the lawyer, either via WhatsApp or email. The site was developed with a highly componentized architecture to maximize code reuse, features both Dark (default) and Light themes, and is documented in Storybook.",
-
-    "project3Title": "Mr. Tooth",
-    "project3Desc": "The Sr.Dente page is a volunteer project developed for Pipoca Ágil. The main objective of the project is to educate and inform families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventive care. The project guides the exchange of children's baby teeth, addresses oral health in adults, and reinforces the importance of brushing, flossing, and cavity prevention, always in a fun and family-oriented way.",
-
-    "project4Title": "Code Connect",
-    "project4Desc": "The project was developed to improve my skills with Next.js. I used Next.js, also as a back-end, where I used PostgreSQL to store the data and Prisma to consume the information. As soon as the site is opened, a request is made to the database and for each item a Card is rendered presenting an 'article' about the specific technology. When clicking on 'View Details', the user is directed to a specific page for each post.",
+    "projects": [
+      {
+        "title": "VN Advocacia - Freelance",
+        "description": "The project involved freelance development for VN Advocacia, a renowned law firm in Parnaíba, Piauí. The proposal was to create a new website based on their old one, with an improved design, more concise information, an intuitive and harmonious user experience, and functionalities that facilitate contact, either through WhatsApp (with modals and icons linked to the WhatsApp API to start a new conversation) or email (a form that, when submitted, automatically sends an email). Technically, the site is highly componentized to maximize code reuse and is fully documented with Storybook.",
+        "img":"projects-assets/vn-advocacia.png",
+        "techs": ["React", "TypeScript", "Tailwind", "FramerMotion", "GIT", "Storybook"],
+        "deploy": "https://vn-advocacia.vercel.app/",
+        "repo": "https://github.com/luscabap/VN-Advocacia",
+        "concluido": "true",
+        "primario": "true"
+      },
+      {
+        "title": "Dr. Guilherme Andrade - Freelance",
+        "description": "The landing page is a freelance project developed for Dr. Guilherme Andrade. The purpose of the site is to present Dr. Guilherme clearly and concisely, highlighting his specialties and areas of expertise. The design was carefully crafted to be attractive and harmonious, making it easy to contact the lawyer, either via WhatsApp or email. The site was developed with a highly componentized architecture to maximize code reuse, features both Dark (default) and Light themes, and is documented in Storybook.",
+        "techs": ["Next", "React", "TypeScript", "Tailwind", "FramerMotion", "GIT", "Storybook"],
+        "img":"projects-assets/dr-guilherme_andrade.png",
+        "deploy": "https://dr-guilherme-andrade.vercel.app/",
+        "repo": "https://github.com/luscabap/Guilherme-Andrade",
+        "concluido": "true",
+        "primario": "false"
+      },
+      {
+        "title": "Mr. Tooth",
+        "description": "The Sr.Dente page is a volunteer project developed for Pipoca Ágil. The main objective of the project is to educate and inform families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventive care. The project guides the exchange of children's baby teeth, addresses oral health in adults, and reinforces the importance of brushing, flossing, and cavity prevention, always in a fun and family-oriented way.",
+        "techs": ["React", "TypeScript", "SASS", "GIT", "Storybook"],
+        "img":"projects-assets/sr-dente.png",
+        "deploy": "https://sr-dente.vercel.app/",
+        "repo": "https://github.com/luscabap/sr-dente",
+        "concluido": "true",
+        "primario": "true"
+      },
+      {
+        "title": "Code Connect",
+        "description": "The project was developed to improve my skills with Next.js. I used Next.js, also as a back-end, where I used PostgreSQL to store the data and Prisma to consume the information. As soon as the site is opened, a request is made to the database and for each item a Card is rendered presenting an 'article' about the specific technology. When clicking on 'View Details', the user is directed to a specific page for each post.",
+        "techs": ["Next", "TypeScript", "CSS", "GIT", "PostgreSQL", "Prisma"],
+        "img":"projects-assets/code-connect.png",
+        "deploy": "https://lusca-code-connect.vercel.app/",
+        "repo": "https://github.com/luscabap/lusca-code-connect",
+        "concluido": "true",
+        "primario": "false"
+      },
+      {
+        "title": "E-commerce Hamburgueria",
+        "description": "The project was developed as a challenge for a job interview. The page consists of a burger page where you have the option to buy burgers, where when you add the item to the cart, it will be rendered in the Cart section, loading the number of items and the total value of the cart.",
+        "techs": ["React", "TypeScript", "StyledComponents", "Redux", "GIT", "Vite"],
+        "img":"projects-assets/projeto-hamburgueria.png",
+        "deploy": "https://hamburgueria-topaz-seven.vercel.app/",
+        "repo": "https://github.com/luscabap/ecommerce-luscabap",
+        "concluido": "true",
+        "primario": "true"
+      },
+      {
+        "title": "E-commerce Doces Re e Luk",
+        "description": "The site is being developed based on my insight, with the aim of helping to promote my mother's work in selling sweets, while at the same time training my skills with Next.js, TypeScript, Tailwind, Storybook and Jest in Front-End, and Node.js, Express and MongoDB in the Back-End. I am responsible for all stages of website development, including layout, design, documentation and API. The website will have responsiveness, component unit tests, stories in the Storybook and user validation to perform CRUD operations on the sweets. It is worth noting that the website is still under development and is currently my main project.",
+        "techs": ["Next", "TypeScript", "Tailwind", "Jest", "TestingLibrary", "Storybook", "Node", "Express", "Mongodb"],
+        "img":"projects-assets/construcao.png",
+        "deploy": "#",
+        "repo": "https://github.com/luscabap/ecommerce-luscabap",
+        "concluido": "false",
+        "primario": "false"
+      }
+    ],
 
     "project5Title": "E-commerce Hamburgueria",
-    "project5Desc": "The project was developed as a challenge for a job interview. The page consists of a burger page where you have the option to buy burgers, where when you add the item to the cart, it will be rendered in the Cart section, loading the number of items and the total value of the cart.",
+    "project5Desc": "",
 
     "project6Title": "E-commerce Doces Re e Luk",
-    "project6Desc": "The site is being developed based on my insight, with the aim of helping to promote my mother's work in selling sweets, while at the same time training my skills with Next.js, TypeScript, Tailwind, Storybook and Jest in Front-End, and Node.js, Express and MongoDB in the Back-End. I am responsible for all stages of website development, including layout, design, documentation and API. The website will have responsiveness, component unit tests, stories in the Storybook and user validation to perform CRUD operations on the sweets. It is worth noting that the website is still under development and is currently my main project.",
+    "project6Desc": "",
 
     "contactTitle": "Contact",
 
