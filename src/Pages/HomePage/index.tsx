@@ -20,7 +20,7 @@ import { AnimatePresence } from "framer-motion";
 
 export default function HomePage() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
-  const [modalContactIsOpen, setModalContactIsOpen] = useState(true);
+  const [modalContactIsOpen, setModalContactIsOpen] = useState(false);
 
   const toggleModalContact = () => {
     setModalContactIsOpen(pv => !pv);
