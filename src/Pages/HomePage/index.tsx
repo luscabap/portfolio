@@ -13,9 +13,18 @@ import Footer from "../../components/Footer/Footer";
 import Conctact from "../../components/Contact/Contact";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import { ModalContact } from "../../components/ModalContact/ModalContact";
+import { MdClose } from "react-icons/md";
+import { TbBracketsContain } from "react-icons/tb";
+import { AnimatePresence } from "framer-motion";
 
 export default function HomePage() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", dark);
+  const [modalContactIsOpen, setModalContactIsOpen] = useState(true);
+
+  const toggleModalContact = () => {
+    setModalContactIsOpen(pv => !pv);
+  }
 
   const toggleTheme = () => {
     setTheme(theme.title === "darkTheme" ? light : dark);
@@ -41,6 +50,12 @@ export default function HomePage() {
         themeSite={theme}
         handleLanguage={handleLanguage}
       />
+      <Styles.ButtonModalContact onClick={toggleModalContact}>
+        {modalContactIsOpen ? <MdClose className="iconContact"/> : <TbBracketsContain className="iconContact"/>}
+      </Styles.ButtonModalContact>
+      <AnimatePresence>
+        { modalContactIsOpen && <ModalContact />}
+      </AnimatePresence>
       <Styles.ContainerMain className="Container_teste">
         <Home />
         <AboutMe />
