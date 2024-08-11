@@ -53,6 +53,7 @@ export const ButtonModalContact = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 50;
 
     &:hover{
         background-color: ${p => p.theme.colors.contrast};
