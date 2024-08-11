@@ -15,8 +15,8 @@ export const ButtonRedirect = ({ icon, redirect, text, contrast, directionPrimar
   return (
     redirectToOutside
       ? <Styles.ContainerButtonRedirect 
-          contrast={contrast}
-          directionPrimary={directionPrimary}
+          contrast={String(contrast)}
+          directionPrimary={String(directionPrimary)}
         >
             <a 
               className="containerButton"
@@ -29,8 +29,8 @@ export const ButtonRedirect = ({ icon, redirect, text, contrast, directionPrimar
         </Styles.ContainerButtonRedirect>
         
       : <Styles.ContainerButtonRedirect 
-          contrast={contrast}
-          directionPrimary={directionPrimary}
+          contrast={String(contrast)}
+          directionPrimary={String(directionPrimary)}
           >
             <Link 
               to={redirect}

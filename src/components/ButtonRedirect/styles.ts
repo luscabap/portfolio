@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 type StylesButtonRedirect = {
-  contrast: boolean;
-  directionPrimary: boolean;
+  contrast: string;
+  directionPrimary: string;
 };
 
 export const ContainerButtonRedirect = styled.a<StylesButtonRedirect>`
@@ -13,8 +13,8 @@ export const ContainerButtonRedirect = styled.a<StylesButtonRedirect>`
     justify-content: flex-start;
     gap: 0.5rem;
     text-decoration: none;
-    background-color: ${(p) => p.contrast ? p.theme.colors.contrast : "transparent"};
-    flex-direction: ${(p) => (p.directionPrimary ? "row" : "row-reverse")};
+    background-color: ${(p) => p.contrast === "true" ? p.theme.colors.contrast : "transparent"};
+    flex-direction: ${(p) => (p.directionPrimary === "true" ? "row" : "row-reverse")};
     border-radius: 0.3rem;
     padding: 0.2rem;
     color: black;
