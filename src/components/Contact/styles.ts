@@ -82,5 +82,6 @@ export const ContainerFormContact = styled.form`
   .subtitleContact{
     text-align: center;
     margin: 1rem 0;
+    color: ${p => p.theme.colors.inverse};
   }
 `

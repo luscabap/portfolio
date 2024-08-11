@@ -14,4 +14,8 @@ export const ContainerModalContact = styled(motion.div)`
   gap: 1rem;
   z-index: 50;
   border-radius: 1rem;
+
+  @media screen and (max-width: 425px){
+    width: 70%;
+  }
 `
