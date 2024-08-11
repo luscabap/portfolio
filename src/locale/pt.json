@@ -100,6 +100,18 @@
     "projectButton": "Ver todos os projetos",
 
     "contactTitle": "Contato",
+    "contactSubtitle": "Envie um e-mail",
+    "labelName": "Digite o seu nome",
+    "placeholderName": "Nome",
+    "labelEmail": "Digite o seu melhor e-mail",
+    "placeholderEmail": "E-mail",
+    "labelNumber": "Digite o seu número de celular",
+    "placeholderPhoneNumber": "Número de celular",
+    "labelSubject": "Digite o assunto",
+    "placeholderSubject": "Assunto",
+    "labelMessage": "Digite a mensagem",
+    "placeholderMessage": "Mensagem",
+    "submitButton": "Enviar E-mail",
 
     "footerDeveloped": "Site desenvolvido por",
     "footerRights": "Todos os direitos reservados",

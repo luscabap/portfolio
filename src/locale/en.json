@@ -100,6 +100,18 @@
     "projectButton": "See all projects",
 
     "contactTitle": "Contact",
+    "contactSubtitle": "Send me an e-mail",
+    "labelName": "Type your name",
+    "placeholderName": "Name",
+    "labelEmail": "Type your best e-mail",
+    "placeholderEmail": "E-mail",
+    "labelNumber": "Type your phone number",
+    "placeholderPhoneNumber": "Phone Number",
+    "labelSubject": "Type the subject",
+    "placeholderSubject": "Subject",
+    "labelMessage": "Type the message",
+    "placeholderMessage": "Message",
+    "submitButton": "Send E-mail",
 
     "footerDeveloped": "Website developed by",
     "footerRights": "All rights reserved",
