@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { InfoButton } from "../InfoButton";
 import { v4 as uuidv4 } from "uuid";
-import { FormContact } from "../FormContact";
+import { FormContact } from "../FormContact/FormContact";
 
 const iconProps = {
   size: 70,
@@ -64,7 +64,10 @@ export default function Conctact() {
           />
         )) }
       </Styles.ContainerContactIcons>
-      <FormContact />
+      <Styles.ContainerFormContact>
+        <h3 className="subtitleContact">{t("contactSubtitle")}</h3>
+        <FormContact />
+      </Styles.ContainerFormContact>
     </Styles.ContainerContact>
   );
 }

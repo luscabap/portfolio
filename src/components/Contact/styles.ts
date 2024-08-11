@@ -76,6 +76,11 @@ export const ContainerContactIcons = styled.div`
   }
 `;
 
-export const ContainerForm = styled.form`
-  background-color: green;
+export const ContainerFormContact = styled.form`
+  margin: 3rem 0;
+
+  .subtitleContact{
+    text-align: center;
+    margin: 1rem 0;
+  }
 `
