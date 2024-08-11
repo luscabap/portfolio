@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Project from "./Projects/Project";
 import * as Styles from "./styles";
 import { ProjectProps } from "../../types/ProjectType";
+import { IoArrowRedoOutline } from "react-icons/io5";
 
 export default function MyProjects() {
   const { t } = useTranslation();
@@ -29,6 +30,13 @@ export default function MyProjects() {
           /> 
         ))
       }
+      <div className="container__button">
+        <a href="https://github.com/luscabap" target="_blank" className="containerProject__button">
+          <h6 className="textButton">{t("projectButton")}</h6>
+          <IoArrowRedoOutline />
+        </a>
+      </div>
+      
     </Styles.ContainerProject>
   );
 }
