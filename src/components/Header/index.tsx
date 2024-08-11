@@ -40,8 +40,10 @@ const Header: React.FC<Props> = ({
 
   const { t } = useTranslation();
 
+  const valueToString = String(isOpen)
+
   return (
-    <Container isOpen={isOpen}>
+    <Container isopen={valueToString}>
       <div className="container__display_default">
         <Link 
             to="home"

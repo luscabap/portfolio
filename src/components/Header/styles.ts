@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 type ContainerProps = {
-  isOpen: boolean
+  isopen: string
 }
 
 export const Container = styled.header<ContainerProps>`
@@ -19,7 +19,7 @@ export const Container = styled.header<ContainerProps>`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: ${(props) => props.isOpen ? props.theme.colors.secondary : props.theme.colors.terciary};
+    background-color: ${(props) => props.isopen === "true" ? props.theme.colors.secondary : props.theme.colors.terciary};
     width: 100%;
   }
 
