@@ -76,8 +76,9 @@ export const ContainerContactIcons = styled.div`
   }
 `;
 
-export const ContainerFormContact = styled.form`
+export const ContainerFormContact = styled.div`
   margin: 3rem 0;
+  position: relative;
 
   .subtitleContact{
     text-align: center;
