@@ -7,11 +7,11 @@ import { ModalSuccessEmail } from "../ModalSuccessEmail/ModalSuccessEmail";
 export const FormContact = () => {
   const { t } = useTranslation();
 
-  const { errors, register, handleSubmit, onSubmit, successSendEmail } = useFormContact()
+  const { errors, register, handleSubmit, onSubmit, successSendEmail, closeModal } = useFormContact()
 
   return (
     <>
-      { successSendEmail && <ModalSuccessEmail />}
+      { successSendEmail && <ModalSuccessEmail closeModal={closeModal}/>}
       <Style.ContainerFormContact id="email">
         <form onSubmit={handleSubmit(onSubmit)} className="containerForm">
           <div className="containerInfos">

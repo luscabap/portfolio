@@ -10,6 +10,10 @@ const useFormContact = () => {
 
   const [successSendEmail, setSuccessSendEmail] = useState(false);
 
+  const closeModal = () => {
+    setSuccessSendEmail(false)
+  }
+
   const { register, formState: { errors }, handleSubmit, reset } = useForm<FormContactProps>({
     resolver: zodResolver(FormContactSchema)
   });
@@ -49,7 +53,7 @@ const useFormContact = () => {
   }
 
   return {
-    register, errors, handleSubmit, onSubmit, successSendEmail
+    register, errors, handleSubmit, onSubmit, successSendEmail, closeModal
   }
 }
 
