@@ -3,15 +3,18 @@ import  * as Style from "./styles";
 import useFormContact from "../../utils/useFormContact";
 import { ErrorMessage } from "../ErrorMessage/ErrorMessage";
 import { ModalSuccessEmail } from "../ModalSuccessEmail/ModalSuccessEmail";
+import { AnimatePresence } from "framer-motion";
 
 export const FormContact = () => {
   const { t } = useTranslation();
 
-  const { errors, register, handleSubmit, onSubmit, successSendEmail, closeModal } = useFormContact()
+  const { errors, register, handleSubmit, onSubmit, successSendEmail, closeModal } = useFormContact();
 
   return (
     <>
-      { successSendEmail && <ModalSuccessEmail closeModal={closeModal}/>}
+      <AnimatePresence>
+        { successSendEmail && <ModalSuccessEmail closeModal={closeModal}/>}
+      </AnimatePresence>
       <Style.ContainerFormContact id="email">
         <form onSubmit={handleSubmit(onSubmit)} className="containerForm">
           <div className="containerInfos">

@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ContainerBackgroundModal = styled.div`
+export const ContainerBackgroundModal = styled(motion.div)`
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
@@ -12,7 +13,7 @@ export const ContainerBackgroundModal = styled.div`
   justify-content: center;
 `;
 
-export const ContainerModalSuccessEmail = styled.div`
+export const ContainerModalSuccessEmail = styled(motion.div)`
   background-color: #FEFEFE;
   display: flex;
   position: relative;
