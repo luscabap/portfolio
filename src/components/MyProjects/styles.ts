@@ -19,9 +19,8 @@ export const ContainerProject = styled.div`
         margin: auto;
         justify-content: center;
         align-items: center;
-        background-color: ${props => props.theme.colors.primary};
-        text-decoration: none;
-        color: black;
+        color: ${props => props.theme.colors.primary};
+        text-decoration: underline;
         padding: 0.5rem 1rem;
         border-radius: 1rem;
         gap: 0.3rem;
