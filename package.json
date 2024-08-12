@@ -12,11 +12,13 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.9.0",
     "@mui/material": "^5.15.7",
     "@phosphor-icons/react": "^2.0.15",
+    "emailjs": "^4.0.3",
     "framer-motion": "^11.3.8",
     "i18next": "^23.11.5",
     "polished": "^4.2.2",
