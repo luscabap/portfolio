@@ -5,7 +5,7 @@ type StylesButtonRedirect = {
   directionPrimary: string;
 };
 
-export const ContainerButtonRedirect = styled.a<StylesButtonRedirect>`
+export const ContainerButtonRedirect = styled.div<StylesButtonRedirect>`
 
   .containerButton {
     display: inline-flex;
