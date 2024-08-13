@@ -12,4 +12,18 @@ export default createGlobalStyle`
     body{
         background-color: ${props => props.theme.colors.background};
     }
+
+    body::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    body::-webkit-scrollbar-track{
+        background-color: ${p => p.theme.colors.secondary};
+    }
+
+    body::-webkit-scrollbar-thumb{
+        background-color: ${p => p.theme.colors.contrast};
+        border-radius: 40px;
+        cursor: crosshair;
+    }
 `;
