@@ -15,6 +15,7 @@ export const Container = styled(motion.header)<ContainerProps>`
   top: 0;
   z-index: 1000;
   transition: 0.5s all ease-in-out;
+  transform-origin: top;
 
   .container__display_default {
     height: 5rem;
