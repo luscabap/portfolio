@@ -1,14 +1,14 @@
-import { MoonStars, SunDim, List } from "@phosphor-icons/react";
-import { MdTranslate } from "react-icons/md";
-import React, { useState } from "react";
-import { Container, ContainerIcon } from "./styles";
-import light from "../../styles/themes/light";
-import { DefaultTheme } from "styled-components/dist/types";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-scroll";
-import { MenuMobile } from "../MenuMobile";
+import { List, MoonStars, SunDim } from "@phosphor-icons/react";
 import { AnimatePresence } from "framer-motion";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { IoClose } from "react-icons/io5";
+import { MdTranslate } from "react-icons/md";
+import { Link } from "react-scroll";
+import { DefaultTheme } from "styled-components/dist/types";
+import light from "../../styles/themes/light";
+import { MenuMobile } from "../MenuMobile";
+import { Container, ContainerIcon } from "./styles";
 
 interface Props {
   toggleTheme(): void;
@@ -43,7 +43,10 @@ const Header: React.FC<Props> = ({
   const valueToString = String(isOpen)
 
   return (
-    <Container isopen={valueToString}>
+    <Container 
+      isopen={valueToString}
+
+    >
       <div className="container__display_default">
         <Link 
             to="home"

@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { motion } from "framer-motion"
 
 type ContainerProps = {
-  isopen: string
+  isopen: string,
+
 }
 
-export const Container = styled.header<ContainerProps>`
+export const Container = styled(motion.header)<ContainerProps>`
   display: flex;
   align-items: center;
   justify-content: center;
