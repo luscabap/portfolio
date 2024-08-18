@@ -25,7 +25,7 @@ export default function Home(){
                 <a href={curriculo} target='_blank'
                 className='container__cv'>
                     <button className='container__cv__btn'>
-                        Download CV
+                        {t("resume")}
                         <DownloadSimple size={32} />
                     </button>
                     
