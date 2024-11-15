@@ -11,21 +11,20 @@
 
     "apresentation": "Hello, my name is",
     "resume": "View resume",
-    "function": "Front-End Developer",
+    "function": "Junior FullStack Developer at OndePouso",
     "textMain": "Transoform your ideas in ",
     "textMainContrast": "Successful Digital Experiences!",
-    "aboutFunction": "Let me help transform your vision into a high-quality web application with a modern, intuitive, and highly performant design. Let's talk about how I can contribute to the success of your project!",
+    "aboutFunction": "Let me help transform your vision into a high-quality web application with a modern, intuitive, and high-performing design. Let's talk about how I can contribute to the success of your project!",
 
 
     "aboutTitle": "About Me",
-    "aboutText1": "Professional technologist in Systems Analysis and Development and Postgraduate student in Software Engineering, I am a front-end developer passionate about creating impressive and functional interfaces. With expertise in,",
-    "aboutTechs": " Next.js, React.js, TypeScript, Node.js and Pipeline CI/CD ",
-    "aboutText1_1": "I offer robust and scalable architectures with intuitive, responsive, and attractive design.",
+    "aboutText1": "With a postgraduate specialization in Software Engineering and a degree in Systems Analysis and Development, I am a FullStack developer passionate about programming. My expertise includes",
+    "aboutTechs": " Next.js, React.js, TypeScript, Node.js, and React Native ",
+    "aboutText1_1": "I offer integrated, robust, and scalable architectures with intuitive, responsive, and attractive designs.",
     "aboutText2": "I refine my skills through freelance projects, personal projects, and volunteer work at Pipoca Ágil:",
-    "aboutTextProject1": "Hepatohub 🟪: An initiative dedicated to raising awareness and preventing liver disease by providing essential information and educational resources to promote liver health.",
-    "aboutTextProject2": "SrDente 🦷: A project focused on educating and informing families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventative care.",
-    "aboutText3": "I am currently seeking my first opportunity in the market as a Front-End Developer. Along with my hard skills, I bring 100% dedication, focus, and determination because ",
-    "aboutText3_contrast": " being an excellent developer is the ultimate goal of my life.",
+    "aboutTextProject1": "SrDente 🦷: A project focused on educating and informing families about the importance of oral health, offering accessible and educational content to encourage dental hygiene practices and preventative care.",
+    "aboutText3": "I carry with me an unwavering determination to improve by 1% every day, inspired by examples like Thomas Edison, who registered over 2,300 patents; Walt Disney, who faced more than 300 rejections; and Michael Jordan, who missed more than 9,000 shots. None of them were defeated by failure – instead, they persisted in their constant pursuit of growth and improvement. With dedication and focus, I always strive for excellence. ",
+    "aboutText3_contrast": "'Success is 1% inspiration and 99% perspiration.' – Thomas Edison",
 
     "knowledgeTitle": "Knowdledges",
 

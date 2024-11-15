@@ -11,7 +11,7 @@
 
     "apresentation": "Olá, o meu nome é",
     "resume": "Ver currículo",
-    "function": "Desenvolvedor Front-End",
+    "function": "Desenvolvedor FullStack Jr na OndePouso",
     "textMain": "Transforme suas ideias em ",
     "textMainContrast": "Experiências Digitais de Sucesso!",
     "aboutFunction": "Deixe-me ajudar a transformar sua visão em uma aplicação web de alta qualidade, com um design moderno, intuitivo e altamente performático. Vamos conversar sobre como posso contribuir para o sucesso do seu projeto!",
@@ -19,14 +19,13 @@
 
 
     "aboutTitle": "Sobre Mim",
-    "aboutText1": "Profissional tecnólogo em Análise e Desenvolvimento de Sistemas e pós graduando em Engenharia de Software, sou um desenvolvedor front-end apaixonado por criar interfaces impressionantes e funcionais. Com expertise em,",
-    "aboutTechs": " Next.js, React.js, TypeScript, Node.js e Pipeline CI/CD ",
-    "aboutText1_1": "ofereco arquiteturas robustas e escaláveis, com design intuitivo, responsivo e atraente.",
+    "aboutText1": "Profissional pós-graduando em Engenharia de Software e tecnólogo em Análise e Desenvolvimento de Sistemas, sou um desenvolvedor FullStack apaixonado pelo mundo da programação. Com expertise em,",
+    "aboutTechs": " Next.js, React.js, TypeScript, Node.js e React Native ",
+    "aboutText1_1": "ofereco arquiteturas integradas, robustas e escaláveis, com design intuitivo, responsivo e atraente.",
     "aboutText2": "Aprimoro minhas habilidades com projetos freelances, projetos pessoais e projetos voluntários no Pipoca Ágil:",
-    "aboutTextProject1": "Hepatohub 🟪: Uma iniciativa dedicada à conscientização e prevenção de doenças hepáticas, fornecendo informações essenciais e recursos educacionais para promover a saúde do fígado.",
-    "aboutTextProject2": "SrDente 🦷: Um projeto focado em educar e informar famílias sobre a importância da saúde bucal, oferecendo conteúdos acessíveis e didáticos para incentivar práticas de higiene dental e cuidados preventivos.",
-    "aboutText3": "Atualmente, estou em busca da primeira oportunidade no mercado como Desenvolvedor Front End. Carrego comigo, além das minhas hards skills, uma dedicação, foco e garra de 100%, pois",
-    "aboutText3_contrast": " ser um excelente DEV é o OBJETIVO da minha VIDA.",
+    "aboutTextProject1": "SrDente 🦷: Um projeto focado em educar e informar famílias sobre a importância da saúde bucal, oferecendo conteúdos acessíveis e didáticos para incentivar práticas de higiene dental e cuidados preventivos.",
+    "aboutText3": "Carrego comigo uma determinação inabalável de evoluir 1% a cada dia, inspirado por exemplos como Thomas Edison, que registrou mais de 2.300 patentes; Walt Disney, que enfrentou mais de 300 rejeições; e Michael Jordan, que errou mais de 9.000 arremessos. Nenhum deles foi vencido pelo fracasso – ao contrário, todos persistiram em sua busca constante por evolução e aprimoramento. Com dedicação e foco, sempre persigo a excelência.",
+    "aboutText3_contrast": " 'O sucesso é 1% inspiração e 99% transpiração.' – Thomas Edison",
 
     "knowledgeTitle": "Conhecimentos",
 
