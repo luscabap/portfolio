@@ -33,6 +33,12 @@ export const dataKnowledge = [
   },
   {
     id: uuidv4(),
+    title: "Mongoose",
+    icon: "svgTechs/mongoose.svg",
+    conhecimentos: [],
+  },
+  {
+    id: uuidv4(),
     title: "Node",
     icon: "svgTechs/node.svg",
     conhecimentos: ["Express", "API Rest", "MongoDB", "ORM: Sequelize",],
