@@ -38,11 +38,11 @@ const dataContact = [
   },
   {
     id: uuidv4(),
-    contentToClipboard: "https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/",
+    contentToClipboard: "https://www.linkedin.com/in/lucas-baptista-da-silva/",
     icon: <FaLinkedin {...iconProps} />,
     title: "LinkedIn",
     info: "Lucas Baptista da Silva",
-    href: "https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/"
+    href: "https://www.linkedin.com/in/lucas-baptista-da-silva/"
   },
 ]
 
